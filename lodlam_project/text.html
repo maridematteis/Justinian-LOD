@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Procopius: History of the Wars — A digital edition</title>
+<style>
+   body {
+    font-family: 'Times New Roman', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f3efe6;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    position: relative;    
+    overflow-x: hidden;
+  }
+
+  /* blurred background */
+  body::before {
+    content: "";
+    position: fixed;        
+    inset: 0;
+    background: url("assets/img/6538981_1482.svg") center / cover no-repeat;
+    filter: blur(1px);    
+    opacity: 0.5;          
+    transform: scale(1.05); 
+    z-index: -1;            
+    pointer-events: none;   
+  }
+    .container {
+      max-width: 860px;
+      background: white;
+      padding: 40px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      border: 1px solid #ddd;
+    }
+    h1, h2, h3, h4 {
+      color: #5a3921;
+      font-family: Georgia, serif;
+    }
+    h1 {
+      border-bottom: 2px solid #c9ad7f;
+      padding-bottom: 15px;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    h2 {
+      border-left: 4px solid #c9ad7f;
+      padding-left: 15px;
+      margin-top: 40px;
+    }
+    h3 {
+      color: #7a5c39;
+      margin-top: 30px;
+    }
+    .author-info {
+      font-style: italic;
+      text-align: center;
+      margin-bottom: 20px;
+      color: #666;
+    }
+    .metadata-section {
+      border: 1px solid #ddd;
+      padding: 20px;
+      margin-bottom: 30px;
+      background-color: #f8f5ef;
+      border-radius: 5px;
+    }
+    .bibl-info {
+      margin-left: 10px;
+      font-size: 0.95em;
+      color: #555;
+    }
+    .bibl-info p { margin: 6px 0; }
+    .meta-info { font-size: 0.9em; color: #777; margin-bottom: 10px; }
+    .person-name, .place-name, .term-concept { font-weight: bold; color: #8b4513; }
+    .note { font-size: 0.85em; color: #888; margin-left: 15px; border-left: 2px solid #ddd; padding-left: 8px; }
+    .list-people, .list-places { margin-top: 12px; padding-left: 0; list-style: none; }
+    .list-people li, .list-places li { margin-bottom: 8px; }
+    .keywords-list { list-style: none; padding: 0; display: flex; flex-wrap: wrap; margin: 0; }
+    .keywords-list li { background-color: #e6d7c1; border-radius: 3px; padding: 5px 10px; margin: 0 6px 6px 0; font-size: 0.9em; }
+    .chapter { margin-bottom: 36px; text-align: justify; }
+    p { text-align: justify; margin: 12px 0; }
+    .page-break { font-size: 0.85em; color: #aaa; text-align: center; margin: 10px 0; font-style: italic; }
+    .center { text-align: center; }
+    .bold { font-weight: bold; }
+    .italic { font-style: italic; }
+    a { color: #8b4513; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* small helpers for inline entities */
+    .pers { font-weight: 700; color: #6d4a2a; }
+    .place { font-weight: 700; color: #5a5a5a; }
+    .date { font-style: italic; color: #444; }
+    .term { background-color: #fff3cd; color: #856404; padding: 2px 6px; border-radius: 3px; border: 1px solid #ffeaa7; font-weight: normal; }
+    .term:hover { background-color: #ffeaa7; cursor: help; }
+    @media (max-width: 768px) {
+      .container { padding: 24px; margin: 10px; }
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+<h1>Procopius - History of the Wars (Books I-II)</h1>
+<h2 class="center">A digital edition</h2>
+<div class="metadata-section">
+<h2>Edition Information — Source Description</h2>
+<div style="display:flex; gap:18px; flex-wrap:wrap;">
+<div style="flex:1; min-width:260px; background:#fff; padding:12px; border-radius:4px; border:1px solid #e6ded2;">
+<h3>Original Edition</h3>
+<div class="bibl-info">
+<p><strong>Title:</strong> Procopius — <em>History of the Wars, Books I and II</em></p>
+<p><strong>Translator / Editor: </strong><a href="https://viaf.org/viaf/89376420" rel="noopener noreferrer" target="_blank">H.B.Dewing</a>
+            (Loeb Classical Library)
+            <p><strong>Publisher:</strong> Harvard University Press; William Heinemann Ltd.</p>
+<p><strong>Place of publication:</strong> Cambridge, MA; London</p>
+<p><strong>Imprint date:</strong> <span class="date">1961</span></p>
+<p><strong>Identifiers:</strong> ISBN 9780674990548; id: procopius0001proc (Internet Archive)</p>
+<p><strong>Online copy:</strong> <a href="https://archive.org/details/procopius0001proc" target="_blank">Internet Archive</a></p>
+<p class="note">Loeb Classical Library. Vol. 1 contains History of the Wars, Books I-II (The Persian War).</p>
+</p></div>
+</div>
+<div style="flex:1; min-width:260px; background:#f0f8ff; padding:12px; border-radius:4px; border:1px solid #d8ecff;">
+<h3>Digital Edition (2025)</h3>
+<div class="bibl-info">
+<p><strong>Project:</strong> Iustinianus LOD — course "Information Science and Cultural Heritage", University of Bologna</p>
+<p><strong>Digital title:</strong> History of the Wars, Books I and II: A digital edition</p>
+<p><strong>Digital curator / encoder:</strong> Maria Concetta De Matteis</p>
+<p><strong>Digital publication date:</strong> 2025</p>
+<p><strong>License:</strong><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank"> CC-BY</a></p>
+</div>
+</div>
+</div>
+<h3>Project Description</h3>
+<p>Text encoded in XML/TEI for the project "Iustinianus LOD", developed for the course "Information Science and Cultural Heritage" (Digital Humanities and Digital Knowledge, University of Bologna). Selections document the reign and actions of Emperor <span class="pers">Justinian I</span> to support prosopographical and event-level analysis.</p>
+<h3>Cited People (selection)</h3>
+<ul class="list-people">
+<li><a class="person-name" href="https://www.wikidata.org/wiki/Q186153" rel="noopener noreferrer" target="_blank">Procopius of Caesarea</a> — Author, historian (6th c.).</li>
+<li><a class="person-name" href="https://www.wikidata.org/wiki/Q41866" rel="noopener noreferrer" target="_blank">Justinian I</a> — Emperor (527-565).</li>
+<li><a class="person-name" href="https://www.wikidata.org/wiki/Q174943" rel="noopener noreferrer" target="_blank">Belisarius</a> — General under Justinian.</li>
+<li><a class="person-name" href="https://www.wikidata.org/wiki/Q204843" rel="noopener noreferrer" target="_blank">Theodora</a> — Empress (wife of Justinian).</li>
+<li><a class="person-name" href="https://www.wikidata.org/wiki/Q291932" rel="noopener noreferrer" target="_blank">Antonina</a> — Wife of Belisarius.</li>
+<li><a class="person-name" href="https://www.wikidata.org/wiki/Q895326" rel="noopener noreferrer" target="_blank">Bouzes</a> — Officer (brother of Coutzes).</li>
+<li><a class="person-name" href="https://www.wikidata.org/wiki/Q924253" rel="noopener noreferrer" target="_blank">Pharas</a> — Leader (Eruli) active in Mesopotamia.</li>
+<li><a class="person-name" href="https://www.wikidata.org/wiki/Q7640278" rel="noopener noreferrer" target="_blank">Sunicas</a> — Commander (Massagetae).</li>
+<li><a class="person-name" href="https://www.wikidata.org/wiki/Q61759955" rel="noopener noreferrer" target="_blank">Aigan</a> — Commander (Massagetae).</li>
+<li><a class="person-name" href="https://www.wikidata.org/wiki/Q1561789" rel="noopener noreferrer" target="_blank">Hermogenes</a> — Magister who assisted Belisarius.</li>
+<li><a class="person-name" href="https://www.wikidata.org/wiki/Q4860473" rel="noopener noreferrer" target="_blank">Baresmanas</a> — Persian commander.</li>
+</ul>
+<h3>Places (selection)</h3>
+<ul class="list-places">
+<li><a class="place-name" href="https://pleiades.stoa.org/places/874444" rel="noopener noreferrer" target="_blank">Daras</a> — Frontier city in Mesopotamia.</li>
+<li><a class="place-name" href="https://pleiades.stoa.org/places/874623" rel="noopener noreferrer" target="_blank">Nisibis</a> — City on the Roman-Persian frontier.</li>
+<li>
+<a class="place-name" href="https://pleiades.stoa.org/places/520985" rel="noopener noreferrer" target="_blank">Byzantium / Constantinople</a>
+            — Imperial capital.
+        </li>
+<li><a class="place-name" href="https://pleiades.stoa.org/places/874602" rel="noopener noreferrer" target="_blank">Mesopotamia</a> — Region of operations.</li>
+</ul>
+<h3>Keywords</h3>
+<ul class="keywords-list">
+<li>Battle</li>
+<li>Phalanx</li>
+<li>Massagetae (<a href="https://www.wikidata.org/wiki/Q379821" target="_blank">↗</a>)</li>
+<li>Immortals (<a href="https://www.wikidata.org/wiki/Q213165" target="_blank">↗</a>)</li>
+</ul>
+</div>
+<h2>Annotated Text Content</h2>
+<!-- FRONT: Introduction -->
+<div class="chapter">
+<h3>Introduction</h3>
+<p>
+<span class="person-name">Procopius</span> is known to posterity as the historian of the eventful reign of
+        <span class="person-name">Justinian</span> (<span class="date">527-565 A.D.</span>), and the chronicler of the great deeds of the general
+        <span class="person-name">Belisarius</span>. He was born late in the fifth century in the city of
+        <span class="place-name">Caesarea</span> in <span class="place-name">Palestine</span>. As to his education and early years we are not informed, but we know that he studied to fit himself for the legal profession. He came as a young man to
+        <span class="place-name">Constantinople</span>, and seems to have made his mark immediately. For as early as the year
+        <span class="date">527</span> he was appointed legal adviser and private secretary to
+        <span class="person-name">Belisarius</span>, then a very young man who had been serving on the staff of the general
+        <span class="person-name">Justinian</span>, and had only recently been advanced to the office of general. Shortly after this
+        <span class="person-name">Justinian</span> was called by his uncle <span class="person-name">Justinus</span> to share the throne of the Roman Empire, and four months later <span class="person-name">Justinus</span> died, leaving
+        <span class="person-name">Justinian</span> sole emperor of the Romans. Thus the stage was set for the scenes which are presented in the pages of
+        <span class="person-name">Procopius</span>. His own activity continued till well nigh <span class="page-break">[Page VII]</span> the end of
+        <span class="person-name">Justinian</span>'s life, and he seems to have outlived his hero,
+        <span class="person-name">Belisarius</span>.
+      </p>
+<p>
+        During the eventful years of <span class="person-name">Belisarius</span>' campaigning in <span class="place-name">Africa</span>, in <span class="place-name">Italy</span>, and in the <span class="place-name">East</span>, <span class="person-name">Procopius</span> was moving about with him and was an eye-witness of the events he describes in his writings.
+        In <span class="date">527</span> we find him in <span class="place-name">Mesopotamia</span>; in <span class="date">533</span> he accompanied <span class="person-name">Belisarius</span> to <span class="place-name">Africa</span>; and in <span class="date">536</span> he journeyed with him to Italy.
+        He was therefore quite correct in the assertion which he makes rather modestly in the introduction of his history, that he was better qualified than anyone else to write the history of that period.
+        Besides his intimacy with <span class="person-name">Belisarius</span> it should be added that his position gave him the further advantage of a certain standing at the imperial court in <span class="place-name">Constantinople</span>, and brought him the acquaintance of many of the leading men of his day.
+        Thus we have the testimony of one intimately associated with the administration, and this, together with the importance of the events through which he lived, makes his record exceedingly interesting as well as historically important.
+      </p>
+<p>
+        One must admit that his position was not one to encourage impartiality in his presentation of facts, and that the imperial favour was not won by plain speaking; nevertheless we have before us a man who could not obliterate himself enough to play the abject flatterer always, and he gives us the reverse, too, of his brilliant picture, as we shall see presently.
+      </p>
+<p>
+<span class="person-name">Procopius</span>' three works give us a fairly complete account of the reign of
+        <span class="person-name">Justinian</span> up till near the year <span class="date">560 A.D.</span>, and he has done us the favour of setting forth three different points of view which vary so widely that posterity has sometimes found it difficult to reconcile them.
+        His greatest work, as well as his earliest, is the <span class="italic">History of the Wars</span>, in eight books. The material is not arranged strictly according to chronological sequence, but so that the progress of events may be traced separately in each one of three wars.
+        Thus the first two books are given over to the Persian wars, the next two contain the account of the war waged against the Vandals in Africa, the three following describe the struggle against the Goths in Italy.
+        These seven books were published together first, and the eighth book was added later as a supplement to bring the history up to about the date of <span class="date">554</span>, being a general account of events in different parts of the empire.
+      </p>
+<p>
+        It is necessary to bear in mind that the wars described separately by <span class="person-name">Procopius</span> overlapped one another in time, and that while the Romans were striving to hold back the Persian aggressor they were also maintaining armies in <span class="place-name">Africa</span> and in <span class="place-name">Italy</span>.
+        In fact the Byzantine empire was making a supreme effort to re-establish the old boundaries, and to reclaim the territories lost to the barbarian nations. The emperor <span class="person-name">Justinian</span> was fired by the ambition to make the Roman Empire once more a world power; and he drained every resource in his eagerness to make possible the fulfilment of this dream.
+        It was <span class="page-break">[Page IX]</span> a splendid effort, but it was doomed to failure; the fallen edifice could not be permanently restored.
+      </p>
+<p>
+        The history is more general than the title would imply, and all the important events of the time are touched upon. So while we read much of the campaigns against the nations who were crowding back the boundaries of the old empire, we also hear of civic affairs such as the great <span class="term-concept">Nika insurrection</span> in <span class="place-name">Byzantium</span> in <span class="date">532</span>; similarly a careful account is given of the pestilence of <span class="date">540</span>, and the care shown in describing the nature of the disease shows plainly that the author must have had some acquaintance with the medical science of the time.
+      </p>
+<p>
+        After the seventh book of the <span class="italic">History of the Wars</span> <span class="person-name">Procopius</span> wrote the <span class="italic">Anecdota</span>, or <span class="italic">Secret History</span>. Here he freed himself from all the restraints of respect or fear, and set down without scruple everything which he had been led to suppress or gloss over in the <span class="italic">History</span> through motives of policy. He attacks unmercifully the emperor and empress and even <span class="person-name">Belisarius</span> and his wife <span class="person-name">Antonina</span>, and displays to us one of the blackest pictures ever set down in writing. It is a record of wanton crime and shameless debauchery, of intrigue and scandal both in public and in private life. It is plain that the thing is overdone, and the very extravagance of the calumny makes it impossible to be believed; again and again we meet statements which, if not absolutely impossible, are at least highly improbable. Many of the events of the <span class="italic">History</span> are presented
+        <span class="page-break">[Page X]</span> 
+        in an entirely new light; we seem to hear one speaking out of the bitterness of his heart. It should be said, at the same time, that there are very few contradictions in statements of fact.
+        The author has plainly singled out the empress <span class="person-name">Theodora</span> as the principal victim of his venomous darts, and he gives an account of her early years which is both shocking and disgusting, but which, happily, we are not forced to regard as true. It goes without saying that such a work as this could not have been published during the lifetime of the author, and it appears that it was not given to the world until after the death of <span class="person-name">Justinian</span> in <span class="date">565</span>.
+      </p>
+<p>
+        Serious doubts have been entertained in times past as to the authenticity of the <span class="italic">Anecdota</span>, for at first sight it seems impossible that the man who wrote in the calm tone of the <span class="italic">History</span> and who indulged in the fulsome praise of the panegyric <span class="italic">On the Buildings</span> could have also written the bitter libels of the <span class="italic">Anecdota</span>. It has come to be seen, however, that this feeling is not supported by any unanswerable argument, and it is now believed to be highly probable at least, that the <span class="italic">Anecdota</span> is the work of <span class="person-name">Procopius</span>. Its bitterness may be extreme and its calumnies exaggerated beyond all reason, but it must be regarded as prompted by a reaction against the hollow life of the Byzantine court.
+      </p>
+<p>
+        The third work is entitled <span class="italic">On the Buildings</span>, and is plainly an attempt to gain favour with the emperor. We can only guess as to what the immediate occasion <span class="page-break">[Page XI] </span> was for its composition. It is plain, however, that the publication of the <span class="italic">History</span> could not have aroused the enthusiasm of <span class="person-name">Justinian</span>; there was no attempt in it to praise the emperor, and one might even read an unfavourable judgment between the lines.
+        And it is not at all unlikely that he was moved to envy by the praises bestowed upon his general, <span class="person-name">Belisarius</span>. At any rate the work <span class="italic">On the Buildings</span> is written in the empty style of the fawning flatterer. It is divided into six short books and contains an account of all the public buildings of <span class="person-name">Justinian</span>'s reign in every district of the empire. The subject was well chosen and the material ample, and <span class="person-name">Procopius</span> lost no opportunity of lauding his sovereign to the skies. It is an excellent example of the florid panegyric style which was, unfortunately, in great favour with the literary world of his own as well as later Byzantine times.
+        But in spite of its faults, this work is a record of the greatest importance for the study of the period, since it is a storehouse of information concerning the internal administration of the empire.
+      </p>
+<p>
+        The style of <span class="person-name">Procopius</span> is in general clear and straightforward, and shows the mind of one who endeavors to speak the truth in simple language wherever he is not under constraint to avoid it.
+        At the same time he is not ignorant of the arts of rhetoric, and especially in the speeches he is fond of introducing sounding phrases and sententious statements. He was a great admirer of the classical writers of prose<span class="page-break">[Page XII]</span>, and their influence is everywhere apparent in his writing; in particular he is much indebted to the historians <span class="person-name">Herodotus</span> and <span class="person-name">Thucydides</span>, and he borrows from them many expressions and turns of phrase.
+        But the Greek which he writes is not the pure Attic, and we find many evidences of the influence of the contemporary spoken language.
+      </p>
+<p>
+        The text followed is that of <span class="person-name">Haury</span>, issued in the <span class="italic">Teubner</span> series, <span class="date">1905-1913</span>.
+        <span class="page-break">[Page XIII]</span>
+</p>
+</div>
+<!-- BODY: Work description -->
+<div class="chapter">
+<div><strong>Work:</strong> History of the Wars (English translation by H. B. Dewing; Loeb Classical Library).</div>
+</div>
+<!-- Chapter XIII -->
+<div class="chapter">
+<h3>Chapter XIII</h3>
+<p>
+        Nor long after this <span class="person-name">Justinus</span>, who had declared his nephew <span class="person-name">Justinian</span> emperor with him, died, and thus the empire came to <span class="person-name">Justinian</span> alone.
+        This <span class="person-name">Justinian</span> commanded <span class="person-name">Belisarius</span> to build a fortress in a place called <span class="place-name">Mindouos</span>, which is over against the very boundary of Persia, on the left as one goes to <span class="place-name">Nisibis</span>.
+        He accordingly with great haste began to carry out the decision of the emperor, and the fort was already rising to a considerable height by reason of the great number of artisans.
+        But the Persians forbade them to build any further, threatening that, not with words alone but also with deeds, they would at no distant time obstruct the work.
+      </p>
+<p>
+        When <span class="person-name">the emperor</span> heard this, inasmuch as <span class="person-name">Belisarius</span> was not able to beat off the Persians from the place with the army he had, he ordered another army to go thither, and also <span class="person-name">Coutzes</span> and <span class="person-name">Bouzes</span>, who at that time commanded the soldiers in <span class="place-name">Libanus</span>.
+        These two were brothers from Thrace, both young and inclined to be rash in engaging with the enemy. So both armies were gathered together and came in full force to the scene of the building operations, the Persians in order to hinder the work with all their power, and the Romans to defend the labourers.
+        And a fierce <span class="term">battle</span> took place in which the Romans were defeated, and there was a great slaughter of them, while some also were made captive by the enemy. Among these was <span class="person-name">Coutzes</span> himself.
+        All these captives the Persians led away to their own country, and, putting them in chains, confined them permanently in a cave; as for the fort, since no <span class="page-break">[Page 103]</span> one defended it any longer, they razed what had been built to the ground.
+      </p>
+<p>
+        After this the Emperor <span class="person-name">Justinian</span> appointed <span class="person-name">Belisarius</span> General of the East and bade him make an expedition against the Persians.
+        And he collected a very formidable army and came to <span class="place-name">Daras</span>. <span class="person-name">Hermogenes</span> also came to him from the emperor to assist in setting the army in order, holding the office of <span class="person-name">magister</span>; this man was formerly counsellor to Vitalianus at the time when he was at war with the Emperor Anastasius.
+        <span class="person-name">The emperor</span> also sent <span class="person-name">Rufinus</span> as ambassador, commanding him to remain in <span class="place-name">Hierapolis on the Euphrates River</span> until he himself should give the word.
+        For already much was being said on both sides concerning peace. Suddenly, however, someone reported to <span class="person-name">Belisarius</span> and <span class="person-name">Hermogenes</span> that the Persians were expected to invade the land of the Romans, being eager to capture the city of <span class="place-name">Daras</span>.
+      </p>
+<p>
+        And when they heard this, they prepared for the <span class="term">battle</span> as follows. Not far from the gate which lies opposite the city of <span class="place-name">Nisibis</span>, about a stone’s throw away, they dug a deep trench with many passages across it.
+        Now this trench was not dug in a straight line, but in the following manner. In the middle there was a rather short portion straight, and at either end of this there were dug two cross trenches at right angles to the first; and starting from the extremities of the two cross trenches, they continued two straight trenches in the original direction to a very great distance.
+        Not long afterwards the Persians came with a great army, and all of them made camp in a place called <span class="place-name">Ammodios</span>, at a distance of twenty stades from the city of <span class="place-name">Daras</span>.
+        Among the leaders <span class="page-break">[Page 105]</span> of this army were <span class="person-name">Pityaxes</span> and the one-eyed <span class="person-name">Baresmanas</span>. But one general held command over them all, a Persian, whose title was “<span class="person-name">mirranes</span>” (for thus the Persians designate this office), Perozes by name.
+        This Perozes immediately sent to <span class="person-name">Belisarius</span> bidding him make ready the bath: for he wished to bathe there on the following day.
+      </p>
+<p>
+        Accordingly the Romans made the most vigorous preparations for the encounter, with the expectation that they would fight on the succeeding day.
+        At sunrise, seeing the enemy advancing against them, they arrayed themselves as follows. The extremity of the left straight trench which joined the cross trench, as far as the hill which rises here, was held by <span class="person-name">Bouzes</span> with a large force of horsemen and by <span class="person-name">Pharas</span> the Erulian with three hundred of his nation.
+        On the right of these, outside the trench, at the angle formed by the cross trench and the straight section which extended from that point, were <span class="person-name">Sunicas</span> and <span class="person-name">Aigan</span>, <span class="term"><a href="https://www.wikidata.org/wiki/Q379821" rel="noopener noreferrer" target="_blank">Massagetae</a></span> by birth, with six hundred horsemen, in order that, if those under <span class="person-name">Bouzes</span> and <span class="person-name">Pharas</span> should be driven back, they might, by moving quickly on the flank, and getting in the rear of the enemy, be able easily to support the Romans at that point.
+      </p>
+<p>
+        On the other wing also they were arrayed in the same manner, for the extremity of the straight trench was held by a large force of horsemen, who were commanded by John, son of Nicetas, and by Cyril and Marcellus; with them also were Germanus and Dorotheus; while at the angle on the right six hundred horsemen took their stand, commanded by Simmas and <span class="page-break">[Page 107]</span> Ascan, <span class="term"><a href="https://www.wikidata.org/wiki/Q379821" rel="noopener noreferrer" target="_blank">Massagetae</a></span>, in order that, as has been said, in case the forces of John should by any chance be driven back, they might move out from there and attack the rear of the Persians.
+        Thus all along the trench stood the detachments of cavalry and the infantry. And behind these in the middle stood the forces of <span class="person-name">Belisarius</span> and <span class="person-name">Hermogenes</span>. Thus the Romans arrayed themselves, amounting to five-and-twenty thousand; but the Persian army consisted of forty thousand horse and foot, and they all stood close together facing the front, so as to make the front of the <span class="term"><a href="https://www.wikidata.org/wiki/Q180335" rel="noopener noreferrer" target="_blank">phalanx</a></span> as deep as possible.
+        Then for a long time neither side began <span class="term">battle</span> with the other, but the Persians seemed to be wondering at the good order of the Romans, and appeared at a loss what to do under the circumstances.
+      </p>
+<p>
+        In the late afternoon a certain detachment of the horsemen who held the right wing, separating themselves from the rest of the army, came against the forces of <span class="person-name">Bouzes</span> and <span class="person-name">Pharas</span>.
+        And the Romans retired a short distance to the rear. The Persians, however, did not pursue them, but remained there, fearing, I suppose, some move to surround them on the part of the enemy.
+        Then the Romans who had turned to flight suddenly rushed upon them. And the Persians did not withstand their onset and rode back to the <span class="term"><a href="https://www.wikidata.org/wiki/Q180335" rel="noopener noreferrer" target="_blank">phalanx</a></span>, and again the forces of <span class="person-name">Bouzes</span> and <span class="person-name">Pharas</span> stationed themselves in their own position.
+        In this skirmish seven of the Persians fell, and the Romans gained possession of their bodies; thereafter both armies remained quietly in position. But one Persian, a young man, riding up very close to the Roman army, began to challenge all of them, <span class="page-break">[Page 109]</span> calling for whoever wished to do <span class="term">battle</span> with him. And no one of the whole army dared face the danger, except a certain <span class="person-name">Andreas</span>, one of the personal attendants of <span class="person-name">Bouzes</span>, not a soldier nor one who had ever practised at all the business of war, but a trainer of youths in charge of a certain wrestling school in <span class="place-name">Byzantium</span>.
+      </p>
+<p>
+        Through this it came about that he was following the army, for he cared for the person of <span class="person-name">Bouzes</span> in the bath; his birthplace was <span class="place-name">Byzantium</span>.
+        This man alone had the courage, without being ordered by <span class="person-name">Bouzes</span> or anyone else, to go out of his own accord to meet the man in single combat.
+        And he caught the barbarian while still considering how he should deliver his attack, and hit him with his spear on the right breast. And the Persian did not bear the blow delivered by a man of such exceptional strength, and fell from his horse to the earth. Then <span class="person-name">Andreas</span> with a small knife slew him like a sacrificial animal as he lay on his back, and a mighty shout was raised both from the city wall and from the Roman army.
+      </p>
+<p>
+        But the Persians were deeply vexed at the outcome and sent forth another horseman for the same purpose, a manly fellow and well favoured as to bodily size, but not a youth, for some of the hair on his head already shewed grey.
+        This horseman came up along the hostile army, and, brandishing vehemently the whip with which he was accustomed to strike his horse, he summoned to <span class="term">battle</span> whoever among the Romans was willing.
+        And when no one went out against him, <span class="person-name">Andreas</span>, without attracting the notice of anyone, once more came forth, although he had been forbidden to do so by <span class="person-name">Hermogenes</span>.
+        So both rushed madly upon each other with their spears, and the weapons, driven <span class="page-break">[Page 111]</span> against their corselets, were turned aside with mighty force, and the horses, striking together their heads, fell themselves and threw off their riders. And both the two men, falling very close to each other, made great haste to rise to their feet, but the Persian was not able to do this easily because his size was against him, while <span class="person-name">Andreas</span>, anticipating him (for his practice in the wrestling school gave him this advantage), smote him as he was rising on his knee, and as he fell again to the ground dispatched him.
+        Then a roar went up from the wall and from the Roman army as great, if not greater, than before; and the Persians broke their <span class="term"><a href="https://www.wikidata.org/wiki/Q180335" rel="noopener noreferrer" target="_blank">phalanx</a></span> and withdrew to <span class="place-name">Ammodios</span>, while the Romans, raising the pean, went inside the fortifications; for already it was growing dark. Thus both armies passed that night.
+      </p>
+</div>
+<!-- Chapter XIV -->
+<div class="chapter">
+<h3>Chapter XIV</h3>
+<p>
+        On the following day ten thousand soldiers arrived who had been summoned by the Persians from the city of <span class="place-name">Nisibis</span>, and <span class="person-name">Belisarius</span> and <span class="person-name">Hermogenes</span> wrote to the <span class="person-name">mirranes</span> as follows: “The first blessing is peace, as is agreed by all men who have even a small share of reason.
+        It follows that if any one should be a destroyer of it, he would be most responsible not only to those near him but also to his whole nation for the troubles which come. The best general, therefore, is that one who is able to bring about peace from war.
+        But you, when affairs were well settled between the Romans and the Persians, have seen fit to bring upon us a war without cause, <span class="page-break">[Page 113]</span> although the counsels of each king are looking toward peace, and although our envoys are already present in the neighbourhood, who will at no distant time settle all the points of dispute in talking over the situation together, unless some irreparable harm coming from your invasion proves sufficient to frustrate for us this hope.
+        But lead away as soon as possible your army to the land of the Persians, and do not stand in the way of the greatest blessings, lest at some time you be held responsible by the Persians, as is probable, for the disasters which will come to pass.”
+      </p>
+<p>
+        When the <span class="person-name">mirranes</span> saw this letter brought to him, he replied as follows: “I should have been persuaded by what you write, and should have done what you demand, were the letter not, as it happens, from Romans, for whom the making of promises is easy, but the fulfilment of the promises in deed most difficult and beyond hope, especially if you sanction the agreement by any oaths.
+        We, therefore, despairing in view of your deception, have been compelled to come before you in arms, and as for you, my dear Romans, consider that from now on you will be obliged to do nothing else than make war against the Persians. For here we shall be compelled either to die or grow old until you accord to us justice in deed.”
+        Such was the reply which the <span class="person-name">mirranes</span> wrote back.
+      </p>
+<p>
+        And again <span class="person-name">Belisarius</span> and his generals wrote as follows: “O excellent <span class="person-name">mirranes</span>, it is not fitting in all things to depend upon boasting, nor to lay upon one’s neighbours reproaches which are justified on no grounds whatever.
+        For we said with truth that Rufinus had come to act as an envoy and was not far away, and you yourself will know this at no remote time.
+        But since you are eager for deeds of war, we shall array <span class="page-break">[Page 115]</span> ourselves against you with the help of God, who will, we know, support us in the danger, being moved by the peaceful inclination of the Romans, but rebuking the boastfulness of the Persians and your decision to resist us when we invite you to peace.
+        And we shall array ourselves against you, having prepared for the conflict by fastening the letters written by each of us on the top of our banners.” Such was the message of this letter.
+      </p>
+<p>
+        And the <span class="person-name">mirranes</span> again answered as follows: “Neither are we entering upon the war without our gods, and with their help we shall come before you, and I expect that on the morrow they will bring the Persians into Daras.
+        But let the bath and lunch be in readiness for me within the fortifications.” When <span class="person-name">Belisarius</span> and his generals read this, they prepared themselves for the conflict.
+      </p>
+<p>
+        On the succeeding day the <span class="person-name">mirranes</span> called together all the Persians at about sunrise and spoke as follows: “I am not ignorant that it is not because of words of their leaders, but because of their individual bravery and their shame before each other that the Persians are accustomed to be courageous in the presence of dangers.
+        But seeing you considering why in the world it is that, although the Romans have not been accustomed heretofore to go into <span class="term">battle</span> without confusion and disorder, they recently awaited the advancing Persians with a kind of order which is by no means characteristic of them, for this reason I have decided to speak some words of exhortation to you, so that it may not come about that you be deceived by reason of holding an opinion which is not true.
+        For I would not have you think that the Romans have suddenly become better warriors, or that they have acquired any more valour or ex-<span class="page-break">[Page 117]</span> perience, but that they have become more cowardly than they were previously; at any rate they fear the Persians so much that they have not even dared to form their <span class="term"><a href="https://www.wikidata.org/wiki/Q180335" rel="noopener noreferrer" target="_blank">phalanx</a></span> without a trench. And not even with this did they begin any fighting, but when we did not join <span class="term">battle</span> with them at all, joyfully and considering that matters had gone better for them than they had hoped, they withdrew to the wall.
+        For this reason too it happened that they were not thrown into confusion, for they had not yet come into the dangers of <span class="term">battle</span>. But if the fighting comes to close quarters, fear will seize upon them, and this, together with their inexperience, will throw them, in all probability, into their customary disorder.
+        Such, therefore, is the case with regard to the enemy; but do you, O men of Persia, call to mind the judgment of the King of Kings.
+        For if you do not play the part of brave men in the present engagement, in a manner worthy of the valour of the Persians, an inglorious punishment will fall upon you.”
+        With this exhortation the mirranes began to lead his army against the enemy.
+      </p>
+<p>
+        Likewise <span class="person-name">Belisarius</span> and <span class="person-name">Hermogenes</span> gathered all the Romans before the fortifications, and encouraged them with the following words: “You know assuredly that the Persians are not altogether invincible, nor too strong to be killed, having taken their measure in the previous <span class="term">battle</span>; and that, although superior to them in bravery and in strength of body, you were defeated only by reason of being rather heedless of your officers, no one can deny.
+        This thing you now have the opportunity to set right with no trouble. For while the adversities of fortune are by no means such as to <span class="page-break">[Page 119]</span> be set right by an effort, reason may easily become for a man a physician for the ills caused by himself.
+        If therefore you are willing to give heed to the orders given, you will straightway win for yourselves the superiority in <span class="term">battle</span>.
+        For the Persians come against us basing their confidence on nothing else than our disorder. But this time also they will be disappointed in this hope, and will depart just as in the previous encounter.
+      </p>
+<p>
+        And as for the great numbers of the enemy, by which more than anything else they inspire fear, it is right for you to despise them. For their whole infantry is nothing more than a crowd of pitiable peasants who come into <span class="term">battle</span> for no other purpose than to dig through walls and to despoil the slain and in general to serve the soldiers.
+        For this reason they have no weapons at all with which they might trouble their opponents, and they only hold before themselves those enormous shields in order that they may not possibly be hit by the enemy.
+        Therefore if you shew yourselves brave men in this struggle, you will not only conquer the Persians for the present, but you will also punish them for their folly, so that they will never again make an expedition into the Roman territory.”
+      </p>
+<p>
+        When <span class="person-name">Belisarius</span> and <span class="person-name">Hermogenes</span> had finished this exhortation, since they saw the Persians advancing against them, they hastily drew up the soldiers in the same manner as before.
+        And the barbarians, coming up before them, took their stand facing the Romans. But the <span class="person-name">mirranes</span> did not array all the Persians against the enemy, but only one half of them, while he allowed the others to remain behind.
+        These were to take the places of the men who were fighting <span class="page-break">[Page 121]</span> and to fall upon their opponents with their vigour intact, so that all might fight in constant rotation.
+        But the detachment of the so-called <span class="term"><a href="https://www.wikidata.org/wiki/Q213165" rel="noopener noreferrer" target="_blank">Immortals</a></span> alone he ordered to remain at rest until he himself should give the signal.
+        And he took his own station at the middle of the front, putting <span class="person-name">Pityaxes</span> in command on the right wing, and <span class="person-name">Baresmanas</span> on the left.
+      </p>
+<p>
+        In this manner, then, both armies were drawn up. Then <span class="person-name">Pharas</span> came before <span class="person-name">Belisarius</span> and <span class="person-name">Hermogenes</span>, and said: “It does not seem to me that I shall do the enemy any great harm if I remain here with the Eruli; but if we conceal ourselves on this slope, and then, when the Persians have begun the fight, if we climb up by this hill and suddenly come upon their rear, shooting from behind them, we shall in all probability do them the greatest harm.”
+        Thus he spoke, and, since it pleased <span class="person-name">Belisarius</span> and his staff, he carried out this plan.
+      </p>
+<p>
+        But up to midday neither side began <span class="term">battle</span>. As soon, however, as the noon hour was passed, the barbarians began the fight, having postponed the engagement to this time of the day for the reason that they are accustomed to partake of food only towards late afternoon, while the Romans have their meal before noon; and for this reason they thought that the Romans would never hold out so well, if they assailed them while hungry.
+        At first, then, both sides discharged arrows against each other, and the missiles by their great number made, as it were, a vast cloud; and many men were falling on both sides, but the missiles of the barbarians flew much more thickly.
+        For fresh men were always fighting in turn, affording to their enemy not the slightest opportunity to observe what was being done; but even so the Romans did <span class="page-break">[Page 123]</span> not have the worst of it.
+        For a steady wind blew from their side against the barbarians, and checked to a considerable degree the force of their arrows. Then, after both sides had exhausted all their missiles, they began to use their spears against each other, and the <span class="term">battle</span> had come still more to close quarters.
+      </p>
+<p>
+        On the Roman side the left wing was suffering especially. For the Cadiseni, who with <span class="person-name">Pityaxes</span> were fighting at this point, rushing up suddenly in great numbers, routed their enemy, and, crowding hard upon the fugitives, were killing many of them. When this was observed by the men under <span class="person-name">Sunicas</span> and <span class="person-name">Aigan</span>, they charged against them at full speed.
+        But first the three hundred Eruli under <span class="person-name">Pharas</span> from the high ground got in the rear of the enemy and made a wonderful display of valorous deeds against all of them and especially the Cadiseni.
+        And the Persians, seeing the forces of <span class="person-name">Sunicas</span> too already coming up against them from the flank, turned to a hasty flight. And the rout became complete, for the Romans here joined forces with each other, and there was a great slaughter of the barbarians.
+      </p>
+<p>
+        On the Persian right wing not fewer than three thousand perished in this action, while the rest escaped with difficulty to the <span class="term"><a href="https://www.wikidata.org/wiki/Q180335" rel="noopener noreferrer" target="_blank">phalanx</a></span> and were saved. And the Romans did not continue their pursuit, but both sides took their stand facing each other in line. Such was the course of these events.
+      </p>
+<p>
+        But the <span class="person-name">mirranes</span> stealthily sent to the left a large body of troops and with them all the so-called <span class="term"><a href="https://www.wikidata.org/wiki/Q213165" rel="noopener noreferrer" target="_blank">Immortals</a></span>.
+        And when these were noticed by <span class="person-name">Belisarius</span> and <span class="person-name">Hermogenes</span>, they ordered the six hundred men under <span class="person-name">Sunicas</span> and <span class="person-name">Aigan</span> to go to the angle on the right, where the troops of Simmas <span class="page-break">[Page 125]</span> and Ascan were stationed, and behind them they placed many of <span class="person-name">Belisarius</span>’ men.
+      </p>
+<p>
+        So the Persians who held the left wing under the leadership of <span class="person-name">Baresmanas</span>, together with the <span class="term"><a href="https://www.wikidata.org/wiki/Q213165" rel="noopener noreferrer" target="_blank">Immortals</a></span>, charged on the run upon the Romans opposite them, who failed to withstand the attack and beat a hasty retreat.
+        Thereupon the Romans in the angle, and all who were behind them, advanced with great ardour against the pursuers. But inasmuch as they came upon the barbarians from the side, they cut their army into two parts, and the greater portion of them they had on their right, while some also who were left behind were placed on their left.
+        Among these happened to be the standard bearer of <span class="person-name">Baresmanas</span>, whom <span class="person-name">Sunicas</span> charged and struck with his spear.
+      </p>
+<p>
+        And already the Persians who were leading the pursuit perceived in what straits they were, and, wheeling about, they stopped the pursuit and went against their assailants, and thus became exposed to the enemy on both sides.
+        For those in flight before them understood what was happening and turned back again.
+        The Persians, on their part, with the detachment of the <span class="name"><a href="https://www.wikidata.org/wiki/Q213165" rel="noopener noreferrer" target="_blank">Immortals</a></span>, seeing the standard inclined and lowered to the earth, rushed all together against the Romans at that point with <span class="person-name">Baresmanas</span>.
+        There the Romans held their ground. And first <span class="person-name">Sunicas</span> killed <span class="person-name">Baresmanas</span> and threw him from his horse to the ground.
+      </p>
+<p>
+        As a result of this the barbarians were seized with great fear and thought no longer of resistance, but fled in utter confusion. And the Romans, having made a circle as it were around them, killed about five thousand.
+        Thus both armies <span class="page-break">[Page 127]</span> were all set in motion, the Persians in retreat, and the Romans in pursuit.
+        In this part of the conflict all the foot-soldiers who were in the Persian army threw down their shields and were caught and wantonly killed by their enemy.
+        However, the pursuit was not continued by the Romans over a great distance. For <span class="person-name">Belisarius</span> and <span class="person-name">Hermogenes</span> refused absolutely to let them go farther, fearing lest the Persians through some necessity should turn about and rout them while pursuing recklessly, and it seemed to them sufficient to preserve the victory unmarred.
+      </p>
+<p>
+        For on that day the Persians had been defeated in <span class="term">battle</span> by the Romans, a thing which had not happened for a long time.
+        Thus the two armies separated from each other. And the Persians were no longer willing to fight a pitched <span class="term">battle</span> with the Romans.
+        However, some sudden attacks were made on both sides, in which the Romans were not at a disadvantage.
+        Such, then, was the fortune of the armies in <span class="place-name">Mesopotamia</span>.
+      </p>
+</div>
+</div>
+
+</body>
+</html>
