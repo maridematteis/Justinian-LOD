@@ -1,12 +1,11 @@
-﻿Subject,Predicate,Object
-CIV,has genre,4X Turn-Based Strategy
-CIV,first released in,1991
-CIV,created by,Sid Meier
-CIV,developed by,Firaxis Games
-CIV,published by,2K Games
-CIV,latest main installment,Civilization VII
-CIV,latest release date,"February 11, 2025"
-CIV,has defining feature,"Ages (Antiquity, Exploration, Modern)"
-CIV,has victory condition,Economic
-CIV,features leader,Justinian
-
+Subject;Predicate;Object
+Civilization series;Taken from;https://civilization.fandom.com/wiki/Justinian_I
+Civilization series;Has genre;4X Turn-Based Strategy
+Civilization series;First released in;1991
+Civilization series;Created by;Sid Meier
+Civilization series;Developed by;Firaxis Games
+Civilization series;Published by;2K Games
+Civilization series;Latest main installment;Civilization VII
+Civilization series;Has defining feature;Progression through Ages (Antiquity, Exploration, Modern)
+Civilization series;Has victory condition;Economic
+Civilization series;Features leader;Justinian I

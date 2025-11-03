@@ -1,11 +1,11 @@
-﻿Subject,Predicate,Object
-BOARDg,has title,Justinian Intrigue at the Emperors Court
-BOARDg,has designers,Leo Colovini Alessandro Saragosa
-BOARDg,has year published,2006
-BOARDg,has publisher,Phalanx Games Mayfair editions
-BOARDg,has BGG id,BGG id 22938
-BOARDg,has recommended players,2 to 4 players
-BOARDg,has playing time,approx 45 minutes
-BOARDg,has artist,Harald Lieske
-BOARDg,has mechanics,betting bluffing influence
-BOARDg,has components,cards tokens board box components
+Subject;Predicate;Object
+Justinian: Intrigue at the Emperor’s Court;Taken from;https://boardgamegeek.com/boardgame/22938/justinian-intrigue-at-the-emperors-court
+Justinian: Intrigue at the Emperor’s Court;Has title;Justinian: Intrigue at the Emperor’s Court
+Justinian: Intrigue at the Emperor’s Court;Has designers;"Leo Colovini; Alessandro Saragosa"
+Justinian: Intrigue at the Emperor’s Court;Has publisher;"Phalanx Games; Mayfair Games"
+Justinian: Intrigue at the Emperor’s Court;Has year published;2006
+Justinian: Intrigue at the Emperor’s Court;Has artist;Harald Lieske
+Justinian: Intrigue at the Emperor’s Court;Has player count;2–4 players
+Justinian: Intrigue at the Emperor’s Court;Has playing time;Approximately 45 minutes
+Justinian: Intrigue at the Emperor’s Court;Has mechanics;"Bluffing; Influence; Betting"
+Justinian: Intrigue at the Emperor’s Court;Has components;"Game board; Tokens; Cards; Box"
