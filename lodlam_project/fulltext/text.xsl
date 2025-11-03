@@ -125,7 +125,7 @@
           </h1>
           <h2 class="center">A digital edition</h2>
 
-          <!-- METADATA SECTION (fixed text to match your HTML exactly) -->
+          <!-- METADATA SECTION -->
           <div class="metadata-section">
             <h2>Edition Information — Source Description</h2>
             <div style="display:flex; gap:18px; flex-wrap:wrap;">
@@ -160,9 +160,6 @@
 
             <h3>Cited People (selection)</h3>
             <ul class="list-people">
-              <!-- These entries are hard-coded to match your HTML selection/order.
-                   Where possible we attempt to fetch the @sameAs from the TEI; if not present
-                   we still show the label. -->
               <li>
                 <a class="person-name" href="{/tei:TEI/tei:teiHeader/tei:profileDesc/tei:particDesc/tei:listPerson/tei:person[@xml:id='PR']/@sameAs}"
                    rel="noopener noreferrer" target="_blank">
