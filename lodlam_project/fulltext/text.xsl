@@ -39,7 +39,7 @@
             content: "";
             position: fixed;
             inset: 0;
-            background: url("assets/img/6538981_1482.svg") center / cover no-repeat;
+            background: url("/Users/mari/Desktop/Justinian-LOD/lodlam_project/assets/img/6538981_1482.svg") center / cover no-repeat;
             filter: blur(1px);
             opacity: 0.5;
             transform: scale(1.05);
@@ -133,7 +133,7 @@
                 <h3>Original Edition</h3>
                 <div class="bibl-info">
                   <p><strong>Title:</strong> Procopius — <em>History of the Wars, Books I and II</em></p>
-                  <p><strong>Translator / Editor: </strong><a href="https://viaf.org/viaf/89376420" rel="noopener noreferrer" target="_blank">H.B.Dewing</a> (Loeb Classical Library)</p>
+                  <p><strong>Translator / Editor: </strong><a href="https://www.wikidata.org/wiki/Q18911593" rel="noopener noreferrer" target="_blank">H.B.Dewing</a> (Loeb Classical Library)</p>
                   <p><strong>Publisher:</strong> Harvard University Press; William Heinemann Ltd.</p>
                   <p><strong>Place of publication:</strong> Cambridge, MA; London</p>
                   <p><strong>Imprint date:</strong> <span class="date">1961</span></p>
