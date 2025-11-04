@@ -1,0 +1,12 @@
+Subject;Predicate;Object
+Civilization series;dcterms:source;<https://civilization.fandom.com/wiki/Justinian_I>
+Civilization series;Civilization series;dcterms:title
+Civilization series;schema:genre;“4X Turn-Based Strategy”
+Civilization series;schema:datePublished;"""1991""^^xsd:gYear"
+Civilization series;schema:creator;“Sid Meier”
+Civilization series;schema:publisher;“Firaxis Games”
+Civilization series;schema:publisher;“2K Games”
+Civilization series;schema:gameEdition;“Civilization VII”
+Civilization series;ex:definingFeature;“Progression through Ages (Antiquity, Exploration, Modern)”
+Civilization series;ex:VictoryCondition;“Economic”
+Civilization series;ex:featuresLeader;ex:JustinianI

@@ -1,0 +1,11 @@
+Subject;Predicate;Object
+Theodora;schema:url;<https://www.imdb.com/title/tt0047567/>
+Theodora;schema:name;"""Theodora"""
+Theodora;schema:datePublished;"""1954""^^xsd:gYear"
+Theodora;schema:name;a schema:Movie
+Theodora;schema:director;ex:RiccardoFreda
+Theodora;schema:countryOfOrigin;ex:Italy
+Theodora;schema:inLanguage;“It”
+Theodora;schema:about;ex:EmpressTheodoraOfByzantium
+Theodora;schema:genre;"""Historical drama"""
+Theodora;schema:actor;ex:GiannaMariaCanale
