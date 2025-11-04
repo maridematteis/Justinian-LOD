@@ -22,7 +22,7 @@
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <style>
-          /* CSS copied and adapted from your HTML (kept intentionally identical) */
+          /* CSS */
           body {
             font-family: 'Times New Roman', serif;
             line-height: 1.6;
@@ -251,7 +251,6 @@
 
             <h3>Places (selection)</h3>
             <ul class="list-places">
-              <!-- hard-coded links to match your HTML -->
               <li><a class="place-name" href="https://pleiades.stoa.org/places/874444" rel="noopener noreferrer" target="_blank">Daras</a> — Frontier city in Mesopotamia.</li>
               <li><a class="place-name" href="https://pleiades.stoa.org/places/874623" rel="noopener noreferrer" target="_blank">Nisibis</a> — City on the Roman-Persian frontier.</li>
               <li><a class="place-name" href="https://pleiades.stoa.org/places/520985" rel="noopener noreferrer" target="_blank">Byzantium / Constantinople</a> — Imperial capital.</li>
