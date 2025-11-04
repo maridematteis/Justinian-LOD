@@ -1,0 +1,10 @@
+Subject;Predicate;Object
+Diptych Barberini;dcterms:source;<https://collections.louvre.fr/ark:/53355/cl010114082>
+Diptych Barberini;dcterms:title;“Feuillet de diptyque en cinq parties : l'Empereur triomphant (Justinien ?”@fr
+Diptych Barberini;dcterms:format;“Ivory”
+Diptych Barberini;dcterms:dateStart - dcterm:dateEnd;"“0525”^^xsd:gYear.  -   ""0550""^^xsd:gYear "
+Diptych Barberini;dcterms:type;“Diptych”
+Diptych Barberini;dcterms:coverage;“Musée du Louvre, Département des Antiquités grecques, étrusques et romaines”
+Diptych Barberini;dcterm:extent;“34,2 cm”
+Diptych Barberini;dcterms:subject;“Justinian”
+Diptych Barberini;dcterms:spatial;“Constantinople”

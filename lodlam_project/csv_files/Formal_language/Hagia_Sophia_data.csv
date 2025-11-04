@@ -1,0 +1,11 @@
+Subject;Predicate;Object
+Hagia Sophia;dcterms:source;<https://www.archnet.org/sites/1989>
+Hagia Sophia;Dcterms:title;“Hagia Sophia”
+Hagia Sophia;schema:alternateName;“Ayasofya-i Kebir Cami-i Şerifi”
+Hagia Sophia;schema:dateCreatedStart - schema:dateCreatedEnd;"""0532""^^xsd:gYear -     “0537""^^xsd:gYear "
+Hagia Sophia;dcterms:creator;ex:EmperorJustinianI
+Hagia Sophia;Designed by;"ex:AnthemiusOfTralles; ex:IsidoreOfMiletus"
+Hagia Sophia;schema:architecturalStyle;“Byzantine”
+Hagia Sophia;schema:additionalProperty;“Original function: Eastern Orthodox Cathedral”
+Hagia Sophia;schema:additionalProperty;"""Previous function: Museum (1935–2020)"""
+Hagia Sophia;schema:additionalProperty;"""Current function: Mosque"""

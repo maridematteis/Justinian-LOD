@@ -1,0 +1,11 @@
+Subject;Predicate;Object
+Justinian: Intrigue at the Emperor’s Court;schema:url;<https://boardgamegeek.com/boardgame/22938/justinian-intrigue-at-the-emperors-court>
+Justinian: Intrigue at the Emperor’s Court;schema:name;"""Justinian: Intrigue at the Emperor’s Court"" "
+Justinian: Intrigue at the Emperor’s Court;schema:creator;ex:LeoColovini , ex:AlessandroSaragosa
+Justinian: Intrigue at the Emperor’s Court;schema:publisher;ex:PhalanxGames , ex:MayfairGames 
+Justinian: Intrigue at the Emperor’s Court;schema:datePublished;"""2006""^^xsd:gYear "
+Justinian: Intrigue at the Emperor’s Court;Has artistschema:illustrator;ex:HaraldLieske
+Justinian: Intrigue at the Emperor’s Court;schema:numberOfPlayers ;"“2–4 players"""
+Justinian: Intrigue at the Emperor’s Court;schema:timeRequired;"""PT45M"""
+Justinian: Intrigue at the Emperor’s Court;schema:gameMechanics;"“Bluffing; Influence; Betting"""
+Justinian: Intrigue at the Emperor’s Court;schema:material;"""Game board; Tokens; Cards; Box"""

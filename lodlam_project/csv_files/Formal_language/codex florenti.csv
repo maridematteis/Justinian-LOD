@@ -1,0 +1,11 @@
+Subject;Predicate;Object
+Codex Florentinus;dcterms:source ;<https://tecabml.contentdm.oclc.org/digital/collection/pandette/id/4/rec/1>
+Codex Florentinus;dcterms:isPartOf;ex:CorpusIurisCivilis
+Codex Florentinus;dcterms:publisher;"""Biblioteca Medicea Laurenziana, Florence"""
+Codex Florentinus;dcterms:type;“Manuscript (Pandects)”
+Codex Florentinus;dcterms:language;“Latin”
+Codex Florentinus;dcterms:date;"""0600""^^xsd:gYear "
+Codex Florentinus; dcterms:spatial;"""Constantinople"""
+Codex Florentinus;dcterms:medium;“Parchment”
+Codex Florentinus;dcterms:format;"""Greek uncial script"""
+Codex Florentinus;dcterms:description ;"""Roman law"""

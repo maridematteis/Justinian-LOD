@@ -1,0 +1,10 @@
+Subject;Predicate;Object
+Coin;dcterms:source;https://www.britishmuseum.org/collection/object/C_1852-0630-11
+Coin;dcterms:title;"“Roman Coin: Aureus of Emperor Augustus"""
+Coin;nmo:material;“Gold”
+Coin;nmo:denomination;“aureus”
+Coin;nmo:issuedBy;ex:Augustus
+Coin;nmo:mint;ex:Rome
+Coin;nmo:dateStart - nmo:dateEnd;"“-0007""^^xsd:gYear  - ""-0002""^^xsd:gYear "
+Coin;dcterms:spatial;“The British Museum”
+Coin;dcerms:identifier;“C.1852,0630.11”
