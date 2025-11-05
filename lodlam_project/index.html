@@ -467,6 +467,82 @@
         <!-- Theoretical Model Subsection -->
 
         <!-- Conceptual Model Subsection -->
+
+
+        <!-- Text Analysis Section-->
+        <div class="container">
+            <div class="domain-subsection text-analysis-section">
+
+                <h3>TEXT ANALYSIS</h3>
+
+                <div class="idea-text">
+                    <h4>XML/TEI document</h4>
+                    <p>
+                      Our coding work focused on selected excerpts from Procopius's <cite>History of the Wars</cite>. 
+                      Specifically, we coded the <strong>Introduction</strong> and <strong>Chapters XIII-XIV</strong> of <strong>Book I</strong> in Loeb's English translation as represented in the <cite>Internet Archive</cite> copy.
+                    </p> 
+                    <p>
+                      The excerpts were chosen because they explicitly situate the initial phase of Justinian's reign in the Persian (Mesopotamian) theater of operations and introduce key actors and events used in our LOD case study. 
+                      Chapter XIII, in particular, introduces Justinian in the context of the war against the Persians and describes the appointment of Belisarius and the preparations for the battle. 
+                      Chapter XIV continues the narrative of the campaign and contains further descriptions of troop deployments, commanders, and locations.
+                    </p>
+                    <p>To validate the XML/TEI document, we used the <a href="https://marketplace.visualstudio.com/items?itemName=raffazizzi.sxml">XML/TEI plugin for VS Code</a>.</p>
+                    <p>Main sections of the XML/TEI document:</p>
+                    <h2><code>&lt;teiHeader&gt;</code></h2>
+                    <p>Contains all metadata relating to the work and its digital edition. It is divided into several subsections:</p>
+                    <ul>
+                        <li>
+                            <p>
+                                <strong><code>&lt;fileDesc&gt;</code></strong> —
+                                Describes the <strong>electronic resource</strong>, including the title of the digital edition,
+                                the author, the digital editor, the licenses, and so on. It also provides a
+                                detailed description of the <strong>original source</strong>, with precise references to the
+                                <strong>encoded pages</strong> and the list of <strong>works cited</strong>, all linked to Wikidata.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong><code>&lt;encodingDesc&gt;</code></strong> —
+                                Explains the editorial principles and encoding choices. For example, we wanted to use <i>lb/</i> to accurately represent the layout of the first edition of the work.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong><code>&lt;profileDesc&gt;</code></strong> —
+                                Details non-bibliographic features of the text, such as language (Italian),
+                                text type (essay) and so on. 
+                            <p>
+                                It also includes structured metadata such as a list of organizations, three separate lists of people (authors and editors, historical figures, and legendary characters cited), and a list of places (historical and mythical). 
+                                In the text, the names of <strong>people or places</strong> are marked with @ref, which points to the xml:id in the lists of the teiHeader, and from there they can also be linked to external identifiers, just as it was done. Viaf, Geonames, Pleiades and Wikidata have been used. 
+                            </p>
+                            <p>
+                                Furthermore, keywords considered meaningful for the project—such as celtic traditions and sword—are also included (both in Italian and English) to highlight central ideas of the Sword in the Stone legend.
+
+                            </p>
+                        </li>
+                    </ul>
+
+                    <h3><code>&lt;text&gt;</code></h3>
+                    <p>Contains the actual text of the work.</p>
+                    <ul>
+                        <li>
+                            <p>
+                                <strong><code>&lt;front&gt;</code></strong> —
+                                Includes the preliminary parts, such as the title page and part of the preface.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong><code>&lt;body&gt;</code></strong> —
+                                Contains the selected excerpts from the main body of the text. Proper names are enclosed in <i>persName</i> and place names in <i>placeName</i>. Peoples or ethnic groups appear in <i>name type="ethnonym"</i>; abstract concepts relevant to the project are encoded with <i>term type="concept"</i>; while bibliographic sources cited in the text are marked with <i>bibl</i>.
+
+
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+
+                    <!-- XML code -->
     
         <!-- ======= Team Section ======= -->
         <section id="team" class="team section-bg">
