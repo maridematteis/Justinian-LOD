@@ -74,10 +74,7 @@
     cursor: help;
   }
 
-  .date {
-    font-style: italic;
-    color: #444;
-  }
+
 
   /* ---------------------------
      NEW: idea-text and item-text
@@ -122,6 +119,18 @@
     right: 0;
     z-index: 9999;
   }
+
+  /* Replacement for bootstrap container in header */
+  .header-inner {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
   
   .header .logo h1 {
     font-size: 30px;
@@ -130,7 +139,14 @@
     font-family: "Byzantine Normal", serif;
     text-transform: uppercase;
     letter-spacing: 0.08em;
-    padding-left: 20px;
+    padding-left: 0; /* adjusted because header-inner handles spacing */
+  }
+
+  /* make the .logo element a flex container to align icon/text if needed */
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
   }
   
   /*--------------------------------------------------------------
@@ -141,6 +157,8 @@
     padding: 0;
     display: flex;
     list-style: none;
+    gap: 6px;
+    align-items: center;
   }
   
   .navmenu a {
@@ -157,6 +175,15 @@
   .navmenu a:hover, 
   .navmenu .active {
     color: var(--accent-color);
+  }
+  
+  /* Visual small-screen menu control (kept simple) */
+  .nav-toggle {
+    display: none;
+    background: transparent;
+    border: none;
+    font-size: 1.25rem;
+    cursor: pointer;
   }
   
   /*--------------------------------------------------------------
@@ -310,6 +337,10 @@
     .home-btn {
       font-size: 1.05rem;
       padding: 14px 34px;
+    }
+
+    .nav-toggle {
+      display: inline-block;
     }
   }
   
@@ -528,6 +559,13 @@
     background: rgba(139, 90, 43, 0.08);
     padding: 4px 10px;
     border-radius: 20px;
+  }
+
+  /* remove the small icon inside .item-meta spans (if present as pseudo or inline),
+     prefer the plain label look — user requested to remove the "symbolino" */
+  .item-meta span i {
+    display: none; /* hide the small icon element (bootstrap icon tag) */
+    margin-right: 0;
   }
   
   .item-link {
@@ -1348,6 +1386,8 @@
       overflow-y: auto;
       transition: 0.3s;
       z-index: 9998;
+      flex-direction: column;
+      gap: 12px;
     }
   
     .navmenu a {
