@@ -44,6 +44,69 @@
     text-transform: uppercase;
     letter-spacing: 0.06em;
   }
+
+  /* ---------------------------
+     NEW: Inline entity helpers
+     --------------------------- */
+  .person-name, .pers {
+    font-weight: 700;
+    color: #6d4a2a; /* warm brown for persons */
+  }
+
+  .place-name, .place {
+    font-weight: 700;
+    color: #5a5a5a; /* neutral/darker for places */
+  }
+
+  .term-concept, .term {
+    background-color: #fff3cd; /* light yellow highlight */
+    color: #856404;
+    padding: 2px 6px;
+    border-radius: 3px;
+    border: 1px solid #ffeaa7;
+    font-weight: 600;
+    font-size: 0.96em;
+    vertical-align: baseline;
+  }
+
+  .term:hover, .term-concept:hover {
+    background-color: #ffeaa7;
+    cursor: help;
+  }
+
+  .date {
+    font-style: italic;
+    color: #444;
+  }
+
+  /* ---------------------------
+     NEW: idea-text and item-text
+     --------------------------- */
+  /* Global utility for slightly larger, justified blocks used in IDEA and ITEMS */
+  .idea-text,
+  .item-text {
+    font-size: 1.08rem;           /* slightly larger than body */
+    line-height: 1.75;
+    text-align: justify;
+    color: var(--default-color);
+    margin-bottom: 1rem;
+  }
+
+  /* Make sure paragraphs inside obey the same spacing */
+  .idea-text p,
+  .item-text p {
+    margin: 0 0 1rem 0;
+  }
+
+  /* Slightly smaller on mobile to keep readability */
+  @media (max-width: 768px) {
+    .idea-text,
+    .item-text {
+      font-size: 1rem;
+      line-height: 1.6;
+      text-align: justify;
+    }
+  }
   
   /*--------------------------------------------------------------
   # Header
@@ -100,7 +163,7 @@
   # Sections
   --------------------------------------------------------------*/
   section {
-    padding: 80px 0;
+    padding: 120px 0;
     overflow: hidden;
   }
   
@@ -312,7 +375,7 @@
 # Study of the Domain
 --------------------------------------------------------------*/
 .study-domain {
-  padding: 80px 0;
+  padding: 120px 0;
   background-color: var(--surface-color);
 }
 
@@ -532,7 +595,7 @@
   # Knowledge Organization & Representation Sections
   --------------------------------------------------------------*/
   .knowledge-organization {
-    padding: 80px 0;
+    padding: 120px 0;
     background-color: var(--surface-color);
   }
   
@@ -1078,7 +1141,7 @@
   --------------------------------------------------------------*/
 
   .team {
-    padding: 80px 0;
+    padding: 120px 0;
     background-color: var(--surface-color);
   }
 
@@ -1204,7 +1267,7 @@
     opacity: 1;
   }
 
-  /* Initial nimation */
+  /* Initial Animation */
   @keyframes teamCardEntrance {
     from { opacity: 0; transform: translateY(40px) scale(0.95); }
     to   { opacity: 1; transform: translateY(0)    scale(1);    }
@@ -1342,8 +1405,6 @@
     }
   }
   
-  
-  
   .svg-zoom {
     width: 100%;
     max-width: 900px;
@@ -1365,6 +1426,4 @@
     height: auto; 
     display: block; 
     margin: 0 auto; 
-  
-  
   }
