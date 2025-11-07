@@ -1,11 +1,12 @@
-Subject;Predicate;Object
-Justinian Epic Symphony;Taken from;https://www.youtube.com/watch?v=E6zzpya2FT4
-Justinian Epic Symphony;Has title;Justinian Epic Symphony
-Justinian Epic Symphony;Has composer;Farya Faraji
-Justinian Epic Symphony;Has release date;2024
-Justinian Epic Symphony;Has format;"Audio recording; Video upload"
-Justinian Epic Symphony;Has duration;Approximately 1 hour 12 minutes
-Justinian Epic Symphony;Uses languages;"Latin; Greek"
-Justinian Epic Symphony;Has instrumentation note;Period and court-style instruments (circa year 1000)
-Justinian Epic Symphony;Distributed on;"YouTube; Apple Music; SoundCloud"
-Justinian Epic Symphony;Has YouTube ID;E6zzpya2FT4
+Subject,Predicate,Object
+Justinian Epic Symphony,Taken from,https://www.youtube.com/watch?v=E6zzpya2FT4
+Justinian Epic Symphony,has title,Justinian Epic Symphony
+Justinian Epic Symphony,has composer,Farya Faraji
+Justinian Epic Symphony,has release date,2023
+Justinian Epic Symphony,has format,Audio recording; Video upload
+Justinian Epic Symphony,has duration,Approximately 1 hour 12 minutes
+Justinian Epic Symphony,has language,Latin
+Justinian Epic Symphony,has language,Greek
+Justinian Epic Symphony,has instrumentation note,Period and court-style instruments (circa year 1000)
+Justinian Epic Symphony,distributed on,YouTube; Apple Music; SoundCloud
+Justinian Epic Symphony,has YouTube ID,E6zzpya2FT4

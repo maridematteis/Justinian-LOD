@@ -1,10 +1,10 @@
-Subject;Predicate;Object
-Coin;Taken from;https://www.britishmuseum.org/collection/object/C_1852-0630-11
-Coin;Title;Roman Coin: Aureus of Emperor Augustus
-Coin;Has material;Gold
-Coin;Has type;Roman aureus
-Coin;Minted under the authority of;Augustus
-Coin;Minted in;Rome
-Coin;Has date;8 BCE – 3 BCE
-Coin;Held by;The British Museum
-Coin;Museum ID;C.1852,0630.11
+Subject,Predicate,Object
+Coin,taken from,https://www.britishmuseum.org/collection/object/C_1852-0630-11
+Coin,has title,Roman Coin: Aureus of Emperor Augustus
+Coin,has material,Gold
+Coin,has type,Roman aureus
+Coin,Minted under the authority of,Augustus
+Coin,minted in,Rome
+Coin,has date,8 BCE – 3 BCE
+Coin,is located in,The British Museum
+Coin,has museum ID,"C.1852,0630.11"

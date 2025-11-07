@@ -1,11 +1,11 @@
-Subject;Predicate;Object
-Civilization series;Taken from;https://civilization.fandom.com/wiki/Justinian_I
-Civilization series;Has genre;4X Turn-Based Strategy
-Civilization series;First released in;1991
-Civilization series;Created by;Sid Meier
-Civilization series;Developed by;Firaxis Games
-Civilization series;Published by;2K Games
-Civilization series;Latest main installment;Civilization VII
-Civilization series;Has defining feature;Progression through Ages (Antiquity, Exploration, Modern)
-Civilization series;Has victory condition;Economic
-Civilization series;Features leader;Justinian I
+Subject,Predicate,Object
+Civilization,taken from,https://civilization.fandom.com/wiki/Justinian_I
+Civilization,has genre,4X Turn-Based Strategy
+Civilization,first released in,1991
+Civilization,created by,Sid Meier
+Civilization,developed by,Firaxis Games
+Civilization,published by,2K Games
+Civilization,latest main installment,Civilization VII
+Civilization,has defining feature,"Progression through Ages (Antiquity, Exploration, Modern)"
+Civilization,has victory condition,Economic
+Civilization,has features leader,Justinian I
