@@ -3,13 +3,14 @@ Belisarius,is part of,Justinian Epic Simphony
 Belisarius,is part of,Justinian: Intrigue at the Emperor's court
 Belisarius,is part of,History of the Wars
 Belisarius,is magister militum of,Justinian
-Teodora,is wife of,Justinian
-Teodora,is mentioned in,History of the Wars
+Theodora,is wife of,Justinian
+Theodora,is part of,History of the Wars
+Theodora,is part of ,Justinian: Intrigue at the Emperor's court
 Louvre Museum,has type,museum
 British Museum,has type,museum
 Louvre Museum,is located in,France
 Codex Florentinus,also known as,Codex Pisanus
-Codex Florentinus,has language,Latin
-Codex Florentinus,has language,Greek
 Hagia Sophia,has label,Religious Architecture
 Basilica di San Vitale,has label,Religious Architecture
+Corpus Iuris Civilis,has authority,Justinian I
+Greek uncial,is a,writing script

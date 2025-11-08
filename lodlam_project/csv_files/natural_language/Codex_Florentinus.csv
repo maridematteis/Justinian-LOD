@@ -1,11 +1,11 @@
-Subject;Predicate;Object
-Codex Florentinus;Taken from;https://tecabml.contentdm.oclc.org/digital/collection/pandette/id/4/rec/1
-Codex Florentinus;Is part of;Corpus Iuris Civilis
-Codex Florentinus;Held by;Biblioteca Medicea Laurenziana, Florence
-Codex Florentinus;Has type;Manuscript (Pandects)
-Codex Florentinus;Has language;Latin
-Codex Florentinus;Has date;6th century CE
-Codex Florentinus;Has origin;Constantinople
-Codex Florentinus;Has material;Parchment
-Codex Florentinus;Has script;Greek uncial
-Codex Florentinus;Describes;Roman law
+Subject,Predicate,Object
+Codex Florentinus,Taken from,https://tecabml.contentdm.oclc.org/digital/collection/pandette/id/4/rec/1
+Codex Florentinus,is part of,Corpus Iuris Civilis
+Codex Florentinus,held by,"Biblioteca Medicea Laurenziana, Florence"
+Codex Florentinus,has type,Manuscript (Pandects)
+Codex Florentinus,has language,Latin
+Codex Florentinus,has date,6th century CE
+Codex Florentinus,has origin,Constantinople
+Codex Florentinus,has material,Parchment
+Codex Florentinus,has script,Greek uncial
+Codex Florentinus,describes,Roman law
