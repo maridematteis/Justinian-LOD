@@ -1,0 +1,10 @@
+Subject,Predicate,Object
+sits:item_book,dcterms:source,https://archive.org/details/procopius0001proc/page/n5/mode/2up
+sits:item_book,rdf:type,bf:text
+sits:item_book,dcterms:creator,viaf:272178390
+sits:item_book,dcterms:title ,History of the wars
+sits:item_book,dcterms:publisher,Cambridge : Harvard Univ. Press
+sits:item_book,dcterms:issued,"""1914""^^xsd:gYear "
+sits:item_book,dcterms:identifier,procopius0001proc
+sits:item_book,dcterms:identifier,“1256733539”
+sits:item_book,dcterms:subject,sits:person_Justinian
