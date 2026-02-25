@@ -1,11 +1,11 @@
-Subject;Predicate;Object
-Theodora;schema:url;<https://www.imdb.com/title/tt0047567/>
-Theodora;schema:name;"""Theodora"""
-Theodora;schema:datePublished;"""1954""^^xsd:gYear"
-Theodora;schema:name;a schema:Movie
-Theodora;schema:director;ex:RiccardoFreda
-Theodora;schema:countryOfOrigin;ex:Italy
-Theodora;schema:inLanguage;“It”
-Theodora;schema:about;ex:EmpressTheodoraOfByzantium
-Theodora;schema:genre;"""Historical drama"""
-Theodora;schema:actor;ex:GiannaMariaCanale
+Subject,Predicate,Object
+sits:item_movie,schema:url,<https://www.imdb.com/title/tt0047567/>
+sits:item_movie,schema:name,"""Theodora"""
+sits:item_movie,schema:datePublished,"""1954""^^xsd:gYear"
+sits:item_movie,schema:name,a schema:Movie
+sits:item_movie,schema:director,ex:RiccardoFreda
+sits:item_movie,schema:countryOfOrigin,ex:Italy
+sits:item_movie,schema:inLanguage,“It”
+sits:item_movie,schema:about,ex:EmpressTheodoraOfByzantium
+sits:item_movie,schema:genre,"""Historical drama"""
+sits:item_movie,schema:actor,ex:GiannaMariaCanale

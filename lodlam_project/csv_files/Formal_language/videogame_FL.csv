@@ -1,12 +1,12 @@
-Subject;Predicate;Object
-Civilization series;dcterms:source;<https://civilization.fandom.com/wiki/Justinian_I>
-Civilization series;Civilization series;dcterms:title
-Civilization series;schema:genre;“4X Turn-Based Strategy”
-Civilization series;schema:datePublished;"""1991""^^xsd:gYear"
-Civilization series;schema:creator;“Sid Meier”
-Civilization series;schema:publisher;“Firaxis Games”
-Civilization series;schema:publisher;“2K Games”
-Civilization series;schema:gameEdition;“Civilization VII”
-Civilization series;ex:definingFeature;“Progression through Ages (Antiquity, Exploration, Modern)”
-Civilization series;ex:VictoryCondition;“Economic”
-Civilization series;ex:featuresLeader;ex:JustinianI
+Subject,Predicate,Object
+sits:item_video_game,dcterms:source,<https://civilization.fandom.com/wiki/Justinian_I>
+sits:item_video_game,Civilization series,dcterms:title
+sits:item_video_game,schema:genre,“4X Turn-Based Strategy”
+sits:item_video_game,schema:datePublished,"""1991""^^xsd:gYear"
+sits:item_video_game,schema:creator,“Sid Meier”
+sits:item_video_game,schema:publisher,“Firaxis Games”
+sits:item_video_game,schema:publisher,“2K Games”
+sits:item_video_game,schema:gameEdition,“Civilization VII”
+sits:item_video_game,ex:definingFeature,"“Progression through Ages (Antiquity, Exploration, Modern)”"
+sits:item_video_game,ex:VictoryCondition,“Economic”
+sits:item_video_game,ex:featuresLeader,ex:JustinianI

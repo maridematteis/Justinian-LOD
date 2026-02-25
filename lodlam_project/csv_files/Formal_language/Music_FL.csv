@@ -1,11 +1,11 @@
-Subject;Predicate;Object
-Justinian Epic Symphony;Schema:url;<https://www.youtube.com/watch?v=E6zzpya2FT4>
-Justinian Epic Symphony;schema:name;“Justinian Epic Symphony”
-Justinian Epic Symphony;schema:composer;ex:Farya Faraji
-Justinian Epic Symphony;schema:datePublished;"""2024""^^xsd:gYear "
-Justinian Epic Symphony;schema:encodingFormat;"“Audio recording; Video upload”"
-Justinian Epic Symphony;schema:duration;"""PT1H12M"""
-Justinian Epic Symphony;schema:inLanguage;"""la"", ""el"" "
-Justinian Epic Symphony;Schema:description;“Period and court-style instruments (circa year 1000)”
-Justinian Epic Symphony;schema:provider;"“YouTube; Apple Music; SoundCloud”"
-Justinian Epic Symphony;schema:identifier;“E6zzpya2FT4”
+Subject,Predicate,Object
+sits:item_music,Schema:url,<https://www.youtube.com/watch?v=E6zzpya2FT4>
+sits:item_music,schema:name,“Justinian Epic Symphony”
+sits:item_music,schema:composer,ex:Farya Faraji
+sits:item_music,schema:datePublished,"""2024""^^xsd:gYear "
+sits:item_music,schema:encodingFormat,“Audio recording; Video upload”
+sits:item_music,schema:duration,"""PT1H12M"""
+sits:item_music,schema:inLanguage,"""la"", ""el"" "
+sits:item_music,Schema:description,“Period and court-style instruments (circa year 1000)”
+sits:item_music,schema:provider,“YouTube; Apple Music; SoundCloud”
+sits:item_music,schema:identifier,“E6zzpya2FT4”
