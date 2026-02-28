@@ -1641,6 +1641,18 @@
       </div>
     </div>
 
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong><span>Iustinianus LOD Project</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+                Information Science and Cultural Heritage - University of Bologna
+            </div>
+        </div>
+    </footer>
+
     <script>
       (function () {
         const modal = document.querySelector('.item-img-modal');
@@ -1703,6 +1715,70 @@
             });
           });
         });
+      })();
+    </script>
+
+    <script>
+      (function () {
+        const navLinks = Array.from(document.querySelectorAll('.navmenu a[href^="#"]'));
+        const sections = Array.from(document.querySelectorAll('section[id]'));
+
+        if (!navLinks.length || !sections.length) {
+          return;
+        }
+
+        const linkById = new Map(
+          navLinks.map((link) => [link.getAttribute('href').slice(1), link])
+        );
+
+        const setActive = (id) => {
+          navLinks.forEach((link) => link.classList.remove('active'));
+          const activeLink = linkById.get(id);
+          if (activeLink) {
+            activeLink.classList.add('active');
+          }
+        };
+
+        let currentId = null;
+        navLinks.forEach((link) => {
+          link.addEventListener('click', () => {
+            const id = link.getAttribute('href').slice(1);
+            currentId = id;
+            setActive(id);
+          });
+        });
+
+        const header = document.querySelector('.header');
+        const getOffset = () => (header ? header.offsetHeight : 0) + 8;
+
+        let ticking = false;
+        const updateActive = () => {
+          const scrollPos = window.scrollY + getOffset();
+          let activeId = sections[0].id;
+
+          sections.forEach((section) => {
+            if (section.offsetTop <= scrollPos) {
+              activeId = section.id;
+            }
+          });
+
+          if (activeId && activeId !== currentId) {
+            currentId = activeId;
+            setActive(activeId);
+          }
+        };
+
+        window.addEventListener('scroll', () => {
+          if (!ticking) {
+            window.requestAnimationFrame(() => {
+              updateActive();
+              ticking = false;
+            });
+            ticking = true;
+          }
+        });
+        window.addEventListener('resize', updateActive);
+        updateActive();
       })();
     </script>
 

@@ -11,11 +11,11 @@
 :root {
     --default-font: "Open Sans", sans-serif;
     --heading-font: "Byzantine Normal", serif; /* Epigrafe romana */
-    --background-color: #f0e1c4;
+    --background-color: #f6eddc;
     --default-color: #212529;
     --heading-color: #5c4033;
     --accent-color: #8b5a2b;
-    --surface-color: #f0e1c4;
+    --surface-color: #f6eddc;
     --contrast-color: #ffffff;
   }
   
@@ -115,7 +115,7 @@
   .header {
     transition: all 0.5s;
     padding: 20px 0;
-    background-color: #f0e1c4;
+    background-color: #f6eddc;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
     position: fixed;
     top: 0;
@@ -772,6 +772,7 @@
     margin: 20px 0;
     font-size: 0.95rem;
     table-layout: fixed; /* mantiene layout stabile su desktop */
+    border: 1px solid #ededed;
   }
   
   .metadata-table th {
@@ -785,11 +786,13 @@
     white-space: normal;     /* permette il wrap dei titoli */
     word-break: break-word;
     line-height: 1.2;
+    border-right: 1px solid rgba(255, 255, 255, 0.25);
   }
   
   .metadata-table td {
     padding: 12px 15px;
-    border-bottom: 1px solid #eaeaea;
+    border-bottom: 1px solid #ededed;
+    border-right: 1px solid #ededed;
     vertical-align: top;
     line-height: 1.4;
     white-space: normal;          /* consentiamo il wrapping nel corpo */
@@ -831,12 +834,9 @@
     min-width: 120px;
   }
   
-  /* righe zebra / hover */
-  .metadata-table tbody tr:nth-child(even) {
-    background-color: #f9f9f9;
-  }
-  .metadata-table tbody tr:hover {
-    background-color: rgba(139, 90, 43, 0.05);
+  /* righe uniformi */
+  .metadata-table tbody tr {
+    background-color: #ffffff;
   }
   
   /* evidenziazione titolo dell'item */
