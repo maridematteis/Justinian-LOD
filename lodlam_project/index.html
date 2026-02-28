@@ -485,8 +485,108 @@
         </div>
 
         <!-- Theoretical Model Subsection -->
+        <div class="domain-subsection">
+        <h3>Theoretical Model</h3>
+        
+        <div class="idea-text">
+          <p>
+            CYRUS
+          </p>
+        </div>
 
         <!-- Conceptual Model Subsection -->
+          <div class="domain-subsection">
+          <h3>Conceptual Model</h3>
+          
+          <div class="idea-text">
+            <p>
+              CYRUS? RUMANA?
+            </p>
+          </div>
+          <div class="idea-text">
+              <p>
+                  The full list of namespace prefixes used in our ontology includes:
+              </p>
+              <ul style="text-align:center; list-style:none; padding:0;">
+                <li>@prefix <strong>BLA:</strong> BLA BLA</li>
+                <li>@prefix <strong>BLA:</strong> BLA BLA</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="container">
+        <div class="domain-subsection">
+            <h3>RDF PRODUCTION</h3>
+
+            <div class="idea-text">
+                <h4>CSV Files in Formal Language</h4>
+                <p>
+                  RUMANA'S PART
+                </p>
+            </div>
+
+            <div class="idea-text">
+                <h4>Python Script for Transformation</h4>
+                <p>
+                    The production of the <strong>RDF dataset</strong> of all the items was done automatically through
+                    <strong>Python</strong> with the usage of libraries like rdflib, csv and
+                    DictReader.
+                </p>
+
+                <p>
+                    What the script does specifically is:
+                </p>
+
+                <ul>
+                    <li>
+                        First of all, it initialises a graph which will contain all the statement triples of the items
+                        and the ‘additional’, and defines a dictionary of prefixes and their connected namespaces’ URIs;
+                    </li>
+                    <li>
+                        It then accesses the CSV ‘formal_language’ folder and takes all files of extension ‘.csv’,
+                        reads them through the function DictReader and then iterates through each of them and appends them to a list;
+                    </li>
+                    <li>
+                        Since we set up the structure of our CSV files with a header <strong>‘Subject,Predicate,Object’</strong>,
+                        the information are processed as rows and for each column analysed accordingly:
+                        the subjects and predicates are firstly split in prefixes and their names and full URIs are created for each of them;
+                        the objects instead are categorised whether or not they have a ‘:’ inside them or not.
+                        If there is, a full URI is created; if not, a parsing depending on the kind of object
+                        (plain text, integers or date years)
+                        creates a Literal of the according data type;
+                    </li>
+                    <li>
+                        The information are then added as triples in the graph initialised at the beginning
+                        and the script produces an output file of the triples (<strong>‘full_dataset.ttl’</strong>)
+                        serialised through <strong>Turtle format</strong> – that we chose for human-readability purposes.
+                    </li>
+                </ul>
+
+                <div class="embed-container">
+                    <iframe frameborder="0" scrolling="yes" allow="clipboard-write" src=""></iframe>
+                </div>
+            </div>
+
+            <div class="idea-text">
+                <h4>RDF Dataset</h4>
+                <p>Our final output:</p>
+                <div class="embed-container">
+                    <iframe frameborder="0" scrolling="yes" allow="clipboard-write" src=""></iframe>
+                </div>
+            </div>
+
+            <div class="idea-text">
+                <h4>RDF Visualization</h4>
+                <div class="image-container text-center my-4">
+                    <img src="" alt="RDF visual" class="img-fluid model-image">
+                    <p class="text-muted small mt-2">RDF Visualization</p>
+                </div>
+            </div>
+
+        </div>
+      </div>
 
 
         <!-- ======= Knowledge Representation Section ======= -->
@@ -496,7 +596,7 @@
               <h2>KNOWLEDGE REPRESENTATION</h2>
             </div>
 
-            <div class="domain-subsection">
+            <div class="domain-subsection csv-box">
               <h3>CSV FILES</h3>
               <div class="idea-text">
                 <p>Below is a collection of <strong>.csv files</strong> (one table per item) with the full natural-language description of our selected cultural heritage items.</p>
@@ -1462,7 +1562,35 @@
                         <p>The adopted approach maintains a clear separation between content and presentation: the <strong>XSL</strong> stylesheet deals exclusively with structure and semantic transformation, while all visual formatting rules are delegated to embedded CSS, thus ensuring a well-structured and aesthetically coherent HTML output.</p>
                         <p>Once the XSL file was produced, both it and the XML file were uploaded to an online tool called <a href="https://www.freeformatter.com/xsl-transformer.html">Free Formatter</a> to generate the corresponding <strong><a href="https://github.com/maridematteis/Justinian-LOD/blob/main/lodlam_project/fulltext/text.html">HTML file</a></strong>, which was then converted into a <strong><a href="https://maridematteis.github.io/Justinian-LOD/lodlam_project/fulltext/text.html">browsable HTML page</a></strong>.</p>
                     </div>
-    
+
+                    <!-- XSL file -->
+                    <div class="embed-container">
+                        <iframe
+                            frameborder="0"
+                            scrolling="yes"
+                            allow="clipboard-write"
+                            src="https://emgithub.com/iframe.html?target=https%3A%2F%2Fgithub.com%2Fmaridematteis%2FJustinian-LOD%2Fblob%2Fmain%2Flodlam_project%2Ffulltext%2Ftext.xsl&style=default&type=code&showBorder=on&showLineNumbers=on&showFileMeta=on&showFullPath=on&showCopy=on">
+                        </iframe>
+                    </div>
+
+                    <!-- XML/RDF -->
+                    <div class="idea-text">
+                        <h4>XML/TEI to RDF</h4>
+
+                        <div class="idea-text">
+                            <p>
+                              RUMANA'S PART
+                            </p>
+                        </div>
+
+                        <div class="idea-text">
+                            <p><strong><a href="">Click here to see XML/TEI to RDF transformation!</a></strong></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
         <!-- ======= Team Section ======= -->
         <section id="team" class="team section-bg">
           <div class="container">

@@ -15,7 +15,7 @@
     --default-color: #212529;
     --heading-color: #5c4033;
     --accent-color: #8b5a2b;
-    --surface-color: #f8f9fa;
+    --surface-color: #f0e1c4;
     --contrast-color: #ffffff;
   }
   
@@ -719,6 +719,14 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
     margin: 50px 0;
     border-left: 4px solid var(--accent-color);
+  }
+
+  .knowledge-representation .domain-subsection.csv-box {
+    border-radius: 8px;
+    width: 90%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .knowledge-representation .domain-subsection:first-child {
