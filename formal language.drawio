@@ -1,0 +1,664 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.0">
+  <diagram name="Page-1" id="M6vRZO_JH5anmV2E_9CH">
+    <mxGraphModel dx="1908" dy="487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-255" parent="1" style="whiteSpace=wrap;html=1;" value="ex:Civilization_VII " vertex="1">
+          <mxGeometry height="30" width="120" x="2030" y="1510" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-256" parent="1" style="whiteSpace=wrap;html=1;" value=" https://civilization.fandom.com/wiki/Justinian_I" vertex="1">
+          <mxGeometry height="30" width="270" x="2090" y="1820" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-257" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-255" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-256" value=" dcterms:source ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-258" parent="1" style="whiteSpace=wrap;html=1;" value=" 4X Turn-Based Strategy" vertex="1">
+          <mxGeometry height="30" width="150" x="1910" y="1800" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-259" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-255" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-258" value=" schema:genre ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-260" parent="1" style="whiteSpace=wrap;html=1;" value=" 1991" vertex="1">
+          <mxGeometry height="30" width="80" x="1800" y="1440" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-261" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-255" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-260" value=" schema:datePublished ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-262" parent="1" style="whiteSpace=wrap;html=1;" value=" Sid Meier" vertex="1">
+          <mxGeometry height="30" width="80" x="1860" y="1610" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-263" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-255" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-262" value=" schema:creator ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-264" parent="1" style="whiteSpace=wrap;html=1;" value=" Firaxis Games" vertex="1">
+          <mxGeometry height="30" width="100" x="2280" y="1720" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-265" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-255" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-264" value=" schema:publisher ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-266" parent="1" style="whiteSpace=wrap;html=1;" value=" 2K Games" vertex="1">
+          <mxGeometry height="30" width="80" x="2320" y="1630" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-267" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-255" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-266" value=" schema:publisher ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-268" parent="1" style="whiteSpace=wrap;html=1;" value=" Civilization VII" vertex="1">
+          <mxGeometry height="30" width="100" x="2175" y="1330" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-269" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-255" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-268" value=" schema:gameEdition ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-270" parent="1" style="whiteSpace=wrap;html=1;" value=" Progression through Ages (Antiquity, Exploration, Modern)" vertex="1">
+          <mxGeometry height="30" width="330" x="2290" y="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-271" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-255" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-270" value=" ex:definingFeature ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-272" parent="1" style="whiteSpace=wrap;html=1;" value=" Economic" vertex="1">
+          <mxGeometry height="30" width="80" x="2360" y="1570" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-273" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-255" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-272" value=" ex:VictoryCondition ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-274" parent="1" style="whiteSpace=wrap;html=1;" value=" ex:JustinianI" vertex="1">
+          <mxGeometry height="30" width="90" x="1670" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-275" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-255" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-274" value=" ex:featuresLeader ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-276" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-255" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-268" value=" schema:name ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-277" parent="1" style="whiteSpace=wrap;html=1;" value="ex:Theodora_movie " vertex="1">
+          <mxGeometry height="30" width="130" x="1560" y="2680" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-278" parent="1" style="whiteSpace=wrap;html=1;" value=" https://www.imdb.com/title/tt0047567/" vertex="1">
+          <mxGeometry height="30" width="220" x="1240" y="2680" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-279" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-277" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-278" value=" schema:url ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-280" parent="1" style="whiteSpace=wrap;html=1;" value=" Theodora" vertex="1">
+          <mxGeometry height="30" width="80" x="1500" y="2940" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-281" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-277" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-280" value=" schema:name ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-282" parent="1" style="whiteSpace=wrap;html=1;" value=" 1954" vertex="1">
+          <mxGeometry height="30" width="80" x="1810" y="2510" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-283" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-277" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-282" value=" schema:datePublished ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-284" parent="1" style="whiteSpace=wrap;html=1;" value=" schema:Movie" vertex="1">
+          <mxGeometry height="30" width="100" x="1850" y="2680" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-285" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-277" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-284" value=" rdf:type ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-286" parent="1" style="whiteSpace=wrap;html=1;" value=" ex:RiccardoFreda" vertex="1">
+          <mxGeometry height="30" width="120" x="1350" y="2840" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-287" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-277" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-286" value=" schema:director ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-288" parent="1" style="whiteSpace=wrap;html=1;" value=" ex:Italy" vertex="1">
+          <mxGeometry height="30" width="80" x="1810" y="2840" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-289" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-277" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-288" value=" schema:countryOfOrigin ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-290" parent="1" style="whiteSpace=wrap;html=1;" value=" It" vertex="1">
+          <mxGeometry height="30" width="80" x="1670" y="2940" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-291" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-277" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-290" value=" schema:inLanguage ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-292" parent="1" style="whiteSpace=wrap;html=1;" value=" ex:EmpressTheodoraOfByzantium" vertex="1">
+          <mxGeometry height="30" width="210" x="1290" y="2520" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-293" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-277" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-292" value=" schema:about ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-294" parent="1" style="whiteSpace=wrap;html=1;" value=" Historical drama" vertex="1">
+          <mxGeometry height="30" width="110" x="1650" y="2450" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-295" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-277" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-294" value=" schema:genre ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-296" parent="1" style="whiteSpace=wrap;html=1;" value=" ex:GiannaMariaCanale" vertex="1">
+          <mxGeometry height="30" width="150" x="1470" y="2430" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-297" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-277" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-296" value=" schema:actor ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-298" parent="1" style="whiteSpace=wrap;html=1;" value="ex:coin_Augustus_aureus " vertex="1">
+          <mxGeometry height="30" width="160" x="340" y="2730" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-299" parent="1" style="whiteSpace=wrap;html=1;" value=" https://www.britishmuseum.org/collection/object/C_1852-0630-11" vertex="1">
+          <mxGeometry height="30" width="370" x="-100" y="2690" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-300" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-298" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-299" value=" dcterms:source ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-301" parent="1" style="whiteSpace=wrap;html=1;" value=" Roman Coin: Aureus of Emperor Augustus" vertex="1">
+          <mxGeometry height="30" width="250" x="240" y="2470" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-302" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-298" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-301" value=" dcterms:title ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-303" parent="1" style="whiteSpace=wrap;html=1;" value=" Gold" vertex="1">
+          <mxGeometry height="30" width="80" x="630" y="2590" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-304" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-298" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-303" value=" nmo:material ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-305" parent="1" style="whiteSpace=wrap;html=1;" value=" aureus" vertex="1">
+          <mxGeometry height="30" width="80" x="180" y="2520" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-306" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-298" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-305" value=" nmo:denomination ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-307" parent="1" style="whiteSpace=wrap;html=1;" value=" ex:Augustus" vertex="1">
+          <mxGeometry height="30" width="90" x="560" y="2920" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-308" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-298" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-307" value=" nmo:issuedBy ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-309" parent="1" style="whiteSpace=wrap;html=1;" value=" ex:Rome" vertex="1">
+          <mxGeometry height="30" width="80" x="490" y="2520" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-310" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-298" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-309" value=" nmo:mint ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-311" parent="1" style="whiteSpace=wrap;html=1;" value=" -0007" vertex="1">
+          <mxGeometry height="30" width="80" x="420" y="3000" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-312" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-298" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-311" value=" nmo:dateStart ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-313" parent="1" style="whiteSpace=wrap;html=1;" value=" -0002" vertex="1">
+          <mxGeometry height="30" width="80" x="250" y="2960" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-314" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-298" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-313" value=" nmo:dateEnd ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-315" parent="1" style="whiteSpace=wrap;html=1;" value=" ex:BritishMuseum" vertex="1">
+          <mxGeometry height="30" width="120" x="110" y="2840" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-316" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-298" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-315" value=" dcterms:spatial ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-317" parent="1" style="whiteSpace=wrap;html=1;" value=" C.1852,0630.11" vertex="1">
+          <mxGeometry height="30" width="110" x="630" y="2770" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-318" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-298" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-317" value=" dcterms:identifier ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-319" parent="1" style="whiteSpace=wrap;html=1;" value="ex:CodexFlorentinus " vertex="1">
+          <mxGeometry height="30" width="130" x="650" y="1810" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-320" parent="1" style="whiteSpace=wrap;html=1;" value=" https://tecabml.contentdm.oclc.org/digital/collection/pandette/id/4/rec/1" vertex="1">
+          <mxGeometry height="30" width="400" x="740" y="1930" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-321" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-319" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-320" value=" dcterms:source ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-322" parent="1" style="whiteSpace=wrap;html=1;" value=" ex:CorpusIurisCivilis" vertex="1">
+          <mxGeometry height="30" width="130" x="380" y="1720" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-323" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-319" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-322" value=" dcterms:isPartOf ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-324" parent="1" style="whiteSpace=wrap;html=1;" value=" Biblioteca Medicea Laurenziana, Florence" vertex="1">
+          <mxGeometry height="30" width="250" x="320" y="1890" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-325" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-319" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-324" value=" dcterms:publisher ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-326" parent="1" style="whiteSpace=wrap;html=1;" value=" Manuscript (Pandects)" vertex="1">
+          <mxGeometry height="30" width="140" x="800" y="2070" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-327" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-319" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-326" value=" dcterms:type ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-328" parent="1" style="whiteSpace=wrap;html=1;" value=" Latin" vertex="1">
+          <mxGeometry height="30" width="80" x="520" y="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-329" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-319" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-328" value=" dcterms:language ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-330" parent="1" style="whiteSpace=wrap;html=1;" value=" 0600" vertex="1">
+          <mxGeometry height="30" width="80" x="850" y="1780" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-331" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-319" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-330" value=" dcterms:date ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-332" parent="1" style="whiteSpace=wrap;html=1;" value=" ex:Constantinople" vertex="1">
+          <mxGeometry height="30" width="120" x="880" y="1520" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-333" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-319" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-332" value=" dcterms:spatial ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-334" parent="1" style="whiteSpace=wrap;html=1;" value=" Parchment" vertex="1">
+          <mxGeometry height="30" width="80" x="690" y="2030" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-335" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-319" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-334" value=" dcterms:medium ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-336" parent="1" style="whiteSpace=wrap;html=1;" value=" Greek uncial script" vertex="1">
+          <mxGeometry height="30" width="120" x="480" y="1590" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-337" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-319" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-336" value=" dcterms:format ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-338" parent="1" style="whiteSpace=wrap;html=1;" value=" Roman law" vertex="1">
+          <mxGeometry height="30" width="80" x="700" y="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-339" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-319" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-338" value=" dcterms:description ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-340" parent="1" style="whiteSpace=wrap;html=1;" value="ex:board_game_Justinian " vertex="1">
+          <mxGeometry height="30" width="160" x="1500" y="1590" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-341" parent="1" style="whiteSpace=wrap;html=1;" value=" https://boardgamegeek.com/boardgame/22938/justinian-intrigue-at-the-emperors-court" vertex="1">
+          <mxGeometry height="30" width="480" x="990" y="1700" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-342" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-340" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-341" value=" schema:url ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-343" parent="1" style="whiteSpace=wrap;html=1;" value=" Justinian: Intrigue at the Emperor’s Court" vertex="1">
+          <mxGeometry height="30" width="240" x="1630" y="1840" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-344" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-340" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-343" value=" schema:name ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-345" parent="1" style="whiteSpace=wrap;html=1;" value=" ex:LeoColovini" vertex="1">
+          <mxGeometry height="30" width="100" x="1560" y="1800" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-346" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-340" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-345" value=" schema:creator ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-347" parent="1" style="whiteSpace=wrap;html=1;" value=" ex:AlessandroSaragosa" vertex="1">
+          <mxGeometry height="30" width="150" x="1500" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-348" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-340" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-347" value=" schema:creator ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-349" parent="1" style="whiteSpace=wrap;html=1;" value=" ex:PhalanxGames" vertex="1">
+          <mxGeometry height="30" width="120" x="1420" y="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-350" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-340" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-349" value=" schema:publisher ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-351" parent="1" style="whiteSpace=wrap;html=1;" value=" ex:MayfairGames" vertex="1">
+          <mxGeometry height="30" width="120" x="1215" y="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-352" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-340" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-351" value=" schema:publisher ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-353" parent="1" style="whiteSpace=wrap;html=1;" value=" 2006" vertex="1">
+          <mxGeometry height="30" width="80" x="1130" y="1635" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-354" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-340" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-353" value=" schema:datePublished ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-355" parent="1" style="whiteSpace=wrap;html=1;" value=" ex:HaraldLieske" vertex="1">
+          <mxGeometry height="30" width="110" x="1800" y="1530" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-356" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-340" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-355" value=" schema:illustrator ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-357" parent="1" style="whiteSpace=wrap;html=1;" value=" 2–4 players" vertex="1">
+          <mxGeometry height="30" width="90" x="1720" y="1720" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-358" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-340" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-357" value=" schema:numberOfPlayers ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-359" parent="1" style="whiteSpace=wrap;html=1;" value=" PT45M" vertex="1">
+          <mxGeometry height="30" width="80" x="1410" y="1750" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-360" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-340" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-359" value=" schema:timeRequired ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-361" parent="1" style="whiteSpace=wrap;html=1;" value=" Bluffing; Influence; Betting" vertex="1">
+          <mxGeometry height="30" width="160" x="1640" y="1400" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-362" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-340" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-361" value=" schema:gameMechanics ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-363" parent="1" style="whiteSpace=wrap;html=1;" value=" Game board; Tokens; Cards; Box" vertex="1">
+          <mxGeometry height="30" width="200" x="1390" y="1870" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-364" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-340" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-363" value=" schema:material ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-365" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-340" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-274" value=" schema:about ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-366" parent="1" style="whiteSpace=wrap;html=1;" value="ex:SanVitaleMosaic " vertex="1">
+          <mxGeometry height="30" width="130" x="2220" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-367" parent="1" style="whiteSpace=wrap;html=1;" value=" https://catalogo.beniculturali.it/detail/PhotographicHeritage/0800649118" vertex="1">
+          <mxGeometry height="30" width="400" x="2030" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-368" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-366" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-367" value=" dcterms:source ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-369" parent="1" style="whiteSpace=wrap;html=1;" value=" Ravenna - San Vitale - Mosaico con Giustiniano e il suo seguito" vertex="1">
+          <mxGeometry height="30" width="360" x="2000" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-370" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-366" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-369" value=" dcterms:title ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-371" parent="1" style="whiteSpace=wrap;html=1;" value=" 6th century" vertex="1">
+          <mxGeometry height="30" width="80" x="2440" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-372" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-366" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-371" value=" dcterms:created ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-373" parent="1" style="whiteSpace=wrap;html=1;" value=" Byzantine Empire" vertex="1">
+          <mxGeometry height="30" width="120" x="2020" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-374" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-366" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-373" value=" dcterms:temporal ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-375" parent="1" style="whiteSpace=wrap;html=1;" value=" Mosaic" vertex="1">
+          <mxGeometry height="30" width="80" x="2580" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-376" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-366" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-375" value=" dcterms:type ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-377" parent="1" style="whiteSpace=wrap;html=1;" value=" glass paste" vertex="1">
+          <mxGeometry height="30" width="80" x="2060" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-378" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-366" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-377" value=" dcterms:medium ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-379" parent="1" style="whiteSpace=wrap;html=1;" value=" Justinian I and his entourage" vertex="1">
+          <mxGeometry height="30" width="180" x="2510" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-380" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-366" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-379" value=" dcterms:subject ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-381" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-366" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-274" value=" ex:portrays ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-382" parent="1" style="whiteSpace=wrap;html=1;" value=" ex:MaximianusOfRavenna" vertex="1">
+          <mxGeometry height="30" width="160" x="2480" y="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-383" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-366" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-382" value=" ex:portrays ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-384" parent="1" style="whiteSpace=wrap;html=1;" value=" ex:Belisarius" vertex="1">
+          <mxGeometry height="30" width="90" x="2400" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-385" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-366" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-384" value=" ex:portrays ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-386" parent="1" style="whiteSpace=wrap;html=1;" value=" Basilica of San Vitale, Ravenna" vertex="1">
+          <mxGeometry height="30" width="190" x="2320" y="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-387" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-366" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-386" value=" schema:location ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-388" parent="1" style="whiteSpace=wrap;html=1;" value="ex:music_JustinianEpicSymphony " vertex="1">
+          <mxGeometry height="30" width="200" x="1960" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-389" parent="1" style="whiteSpace=wrap;html=1;" value=" https://www.youtube.com/watch?v=E6zzpya2FT4" vertex="1">
+          <mxGeometry height="30" width="290" x="2300" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-390" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-388" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-389" value=" schema:url ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-391" parent="1" style="whiteSpace=wrap;html=1;" value=" Justinian Epic Symphony" vertex="1">
+          <mxGeometry height="30" width="160" x="2300" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-392" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-388" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-391" value=" schema:name ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-393" parent="1" style="whiteSpace=wrap;html=1;" value=" ex:FaryaFaraji" vertex="1">
+          <mxGeometry height="30" width="100" x="1970" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-394" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-388" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-393" value=" schema:composer ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-395" parent="1" style="whiteSpace=wrap;html=1;" value=" 2024" vertex="1">
+          <mxGeometry height="30" width="80" x="1850" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-396" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-388" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-395" value=" schema:datePublished ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-397" parent="1" style="whiteSpace=wrap;html=1;" value=" Audio recording; Video upload" vertex="1">
+          <mxGeometry height="30" width="180" x="2160" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-398" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-388" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-397" value=" schema:encodingFormat ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-399" parent="1" style="whiteSpace=wrap;html=1;" value=" PT1H12M" vertex="1">
+          <mxGeometry height="30" width="80" x="1785" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-400" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-388" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-399" value=" schema:duration ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-401" parent="1" style="whiteSpace=wrap;html=1;" value=" la" vertex="1">
+          <mxGeometry height="30" width="80" x="2240" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-402" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-388" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-401" value=" schema:inLanguage ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-403" parent="1" style="whiteSpace=wrap;html=1;" value=" el" vertex="1">
+          <mxGeometry height="30" width="80" x="1900" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-404" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-388" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-403" value=" schema:inLanguage ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-405" parent="1" style="whiteSpace=wrap;html=1;" value=" Period and court-style instruments (circa year 1000)" vertex="1">
+          <mxGeometry height="30" width="300" x="2260" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-406" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-388" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-405" value=" schema:description ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-407" parent="1" style="whiteSpace=wrap;html=1;" value=" YouTube; Apple Music; SoundCloud" vertex="1">
+          <mxGeometry height="30" width="210" x="2005" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-408" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-388" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-407" value=" schema:provider ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-409" parent="1" style="whiteSpace=wrap;html=1;" value=" E6zzpya2FT4" vertex="1">
+          <mxGeometry height="30" width="100" x="2060" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-410" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-388" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-409" value=" schema:identifier ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-411" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-388" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-274" value=" schema:about ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-412" parent="1" style="whiteSpace=wrap;html=1;" value="ex:HistoryOfTheWars " vertex="1">
+          <mxGeometry height="30" width="140" x="1110" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-413" parent="1" style="whiteSpace=wrap;html=1;" value=" https://archive.org/details/procopius0001proc/page/n5/mode/2up" vertex="1">
+          <mxGeometry height="30" width="370" x="650" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-414" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-412" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-413" value=" dcterms:source ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-415" parent="1" style="whiteSpace=wrap;html=1;" value=" book" vertex="1">
+          <mxGeometry height="30" width="80" x="830" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-416" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-412" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-415" value=" dcterms:type ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-417" parent="1" style="whiteSpace=wrap;html=1;" value=" ex:Procopius" vertex="1">
+          <mxGeometry height="30" width="90" x="1030" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-418" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-412" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-417" value=" dcterms:creator ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-419" parent="1" style="whiteSpace=wrap;html=1;" value=" History of the wars" vertex="1">
+          <mxGeometry height="30" width="120" x="1140" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-420" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-412" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-419" value=" dcterms:title ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-421" parent="1" style="whiteSpace=wrap;html=1;" value=" Cambridge : Harvard Univ. Press" vertex="1">
+          <mxGeometry height="30" width="200" x="770" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-422" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-412" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-421" value=" dcterms:publisher ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-423" parent="1" style="whiteSpace=wrap;html=1;" value=" 1914" vertex="1">
+          <mxGeometry height="30" width="80" x="980" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-424" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-412" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-423" value=" dcterms:issued ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-425" parent="1" style="whiteSpace=wrap;html=1;" value=" procopius0001proc" vertex="1">
+          <mxGeometry height="30" width="130" x="860" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-426" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-412" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-425" value=" dcterms:identifier ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-427" parent="1" style="whiteSpace=wrap;html=1;" value=" 1256733539" vertex="1">
+          <mxGeometry height="30" width="90" x="1270" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-428" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-412" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-427" value=" dcterms:identifier ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-429" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-412" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-274" value=" dcterms:subject ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-430" parent="1" style="whiteSpace=wrap;html=1;" value="ex:HagiaSophia " vertex="1">
+          <mxGeometry height="30" width="110" x="1510" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-431" parent="1" style="whiteSpace=wrap;html=1;" value=" https://www.archnet.org/sites/1989" vertex="1">
+          <mxGeometry height="30" width="210" x="1590" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-432" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-430" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-431" value=" dcterms:source ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-433" parent="1" style="whiteSpace=wrap;html=1;" value=" Hagia Sophia" vertex="1">
+          <mxGeometry height="30" width="100" x="1345" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-434" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-430" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-433" value=" dcterms:title ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-435" parent="1" style="whiteSpace=wrap;html=1;" value=" Ayasofya-i Kebir Cami-i Şerifi" vertex="1">
+          <mxGeometry height="30" width="180" x="1200" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-436" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-430" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-435" value=" schema:alternateName ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-437" parent="1" style="whiteSpace=wrap;html=1;" value=" 0532" vertex="1">
+          <mxGeometry height="30" width="80" x="1310" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-438" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-430" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-437" value=" schema:dateCreatedStart ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-439" parent="1" style="whiteSpace=wrap;html=1;" value=" 0537" vertex="1">
+          <mxGeometry height="30" width="80" x="1470" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-440" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-430" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-439" value=" schema:dateCreatedEnd ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-441" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-430" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-274" value=" dcterms:creator ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-442" parent="1" style="whiteSpace=wrap;html=1;" value=" ex:AnthemiusOfTralles" vertex="1">
+          <mxGeometry height="30" width="140" x="1250" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-443" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-430" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-442" value=" schema:architect ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-444" parent="1" style="whiteSpace=wrap;html=1;" value=" ex:IsidoreOfMiletus" vertex="1">
+          <mxGeometry height="30" width="130" x="1680" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-445" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-430" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-444" value=" schema:architect ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-446" parent="1" style="whiteSpace=wrap;html=1;" value=" Byzantine" vertex="1">
+          <mxGeometry height="30" width="80" x="1780" y="535" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-447" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-430" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-446" value=" schema:architecturalStyle ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-448" parent="1" style="whiteSpace=wrap;html=1;" value="ex:DiptychBarberini " vertex="1">
+          <mxGeometry height="30" width="130" x="1130" y="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-449" parent="1" style="whiteSpace=wrap;html=1;" value=" https://collections.louvre.fr/ark:/53355/cl010114082" vertex="1">
+          <mxGeometry height="30" width="290" x="1130" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-450" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-448" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-449" value=" dcterms:source ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-451" parent="1" style="whiteSpace=wrap;html=1;" value=" Feuillet de diptyque en cinq parties : l&#39;Empereur triomphant (Justinien ?)" vertex="1">
+          <mxGeometry height="30" width="410" x="590" y="1210" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-452" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-448" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-451" value=" dcterms:title ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-453" parent="1" style="whiteSpace=wrap;html=1;" value=" Ivory" vertex="1">
+          <mxGeometry height="30" width="80" x="1250" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-454" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-448" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-453" value=" dcterms:format ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-455" parent="1" style="whiteSpace=wrap;html=1;" value=" 0525" vertex="1">
+          <mxGeometry height="30" width="80" x="1390" y="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-456" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-448" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-455" value=" dcterms:dateStart ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-457" parent="1" style="whiteSpace=wrap;html=1;" value=" 0550" vertex="1">
+          <mxGeometry height="30" width="80" x="860" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-458" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-448" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-457" value=" dcterms:dateEnd ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-459" parent="1" style="whiteSpace=wrap;html=1;" value=" Diptych" vertex="1">
+          <mxGeometry height="30" width="80" x="1120" y="1410" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-460" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-448" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-459" value=" dcterms:type ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-461" parent="1" style="whiteSpace=wrap;html=1;" value=" Musée du Louvre" vertex="1">
+          <mxGeometry height="30" width="120" x="990" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-462" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-448" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-461" value=" dcterms:coverage ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-463" parent="1" style="whiteSpace=wrap;html=1;" value=" 34,2 cm" vertex="1">
+          <mxGeometry height="30" width="80" x="970" y="1290" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-464" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-448" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-463" value=" dcterms:extent ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-465" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-448" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-274" value=" dcterms:subject ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-466" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-448" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-332" value=" dcterms:spatial ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-467" parent="1" style="whiteSpace=wrap;html=1;" value="ex:EmpressTheodoraOfByzantium " vertex="1">
+          <mxGeometry height="30" width="210" x="1720" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-468" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-467" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-274" value=" schema:spouse ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-469" parent="1" style="whiteSpace=wrap;html=1;" value="ex:CorpusIurisCivilis " vertex="1">
+          <mxGeometry height="30" width="130" x="1515" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-470" parent="1" style="whiteSpace=wrap;html=1;" value=" Corpus Iuris Civilis" vertex="1">
+          <mxGeometry height="30" width="120" x="1420" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-471" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-469" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-470" value=" dcterms:title ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jIVMOEeWf8IVy3vAytLq-472" edge="1" parent="1" source="jIVMOEeWf8IVy3vAytLq-469" style="rounded=0;" target="jIVMOEeWf8IVy3vAytLq-274" value=" dcterms:creator ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
