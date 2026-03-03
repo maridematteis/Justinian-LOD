@@ -40,7 +40,7 @@ for abbrev, uri_space in prefix_map.items():
 
 # Resolve CSV directory relative to this script's location
 base_dir = Path(__file__).resolve().parent
-data_dir = base_dir.parent / "csv_files" / "formal_language"
+data_dir = base_dir.parent / "csv_files" / "Formal_language"
 
 collected_rows = []
 
