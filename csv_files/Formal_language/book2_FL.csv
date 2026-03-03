@@ -1,12 +1,10 @@
 Subject,Predicate,Object
-sits:item_book,dcterms:source ,<https://tecabml.contentdm.oclc.org/digital/collection/pandette/id/4/rec/1>
-sits:item_book,dcterms:isPartOf,ex:CorpusIurisCivilis
-sits:item_book,dcterms:publisher,"""Biblioteca Medicea Laurenziana, Florence"""
-sits:item_book,dcterms:type,“Manuscript (Pandects)”
-sits:item_book,dcterms:language,“Latin”
-sits:item_book,dcterms:date,"""0600""^^xsd:gYear "
-sits:item_book, dcterms:spatial,"""Constantinople"""
-sits:item_book,dcterms:medium,“Parchment”
-sits:item_book,dcterms:format,"""Greek uncial script"""
-sits:item_book,dcterms:description ,"""Roman law"""
-sits:item_book,dcterms:title,Codex Florentinus
+sits:item_book_2,dcterms:source,https://archive.org/details/procopius0001proc/page/n5/mode/2up
+sits:item_book_2,rdf:type,bf:text
+sits:item_book_2,dcterms:creator,viaf:272178390
+sits:item_book_2,dcterms:title ,History of the wars
+sits:item_book_2,dcterms:publisher,Cambridge : Harvard Univ. Press
+sits:item_book_2,dcterms:issued,"""1914""^^xsd:gYear "
+sits:item_book_2,dcterms:identifier,procopius0001proc
+sits:item_book_2,dcterms:identifier,“1256733539”
+sits:item_book_2,dcterms:subject,sits:person_Justinian
