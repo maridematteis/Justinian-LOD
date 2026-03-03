@@ -1,1 +1,88 @@
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema: <https://schema.org/> .
+@prefix sits: <https://github.com/Iustinianus-LOD/Justinian-LOD.git> .
+@prefix viaf: <https://viaf.org/en> .
+
+sits:item_board_game schema:creator "ex:LeoColovini , ex:AlessandroSaragosa" ;
+    schema:datePublished "\"2006\"^^xsd:gYear" ;
+    schema:gameMechanics "“Bluffing; Influence; Betting\"" ;
+    schema:material "\"Game board; Tokens; Cards; Box\"" ;
+    schema:name "\"Justinian: Intrigue at the Emperor’s Court\"" ;
+    schema:numberOfPlayers "“2–4 players\"" ;
+    schema:publisher "ex:PhalanxGames , ex:MayfairGames" ;
+    schema:timeRequired "\"PT45M\"" ;
+    schema:url "<https://boardgamegeek.com/boardgame/22938/justinian-intrigue-at-the-emperors-court>" .
+
+sits:item_book_1 dcterms:date "\"0600\"^^xsd:gYear" ;
+    dcterms:description "\"Roman law\"" ;
+    dcterms:format "\"Greek uncial script\"" ;
+    dcterms:isPartOf "ex:CorpusIurisCivilis" ;
+    dcterms:language "“Latin”" ;
+    dcterms:medium "“Parchment”" ;
+    dcterms:publisher "\"Biblioteca Medicea Laurenziana, Florence\"" ;
+    dcterms:source "<https://tecabml.contentdm.oclc.org/digital/collection/pandette/id/4/rec/1>" ;
+    dcterms:spatial "\"Constantinople\"" ;
+    dcterms:title "Codex Florentinus" ;
+    dcterms:type "“Manuscript (Pandects)”" .
+
+sits:item_book_2 a bf:text ;
+    dcterms:creator viaf:272178390 ;
+    dcterms:identifier "procopius0001proc",
+        "“1256733539”" ;
+    dcterms:issued "\"1914\"^^xsd:gYear" ;
+    dcterms:publisher "Cambridge : Harvard Univ. Press" ;
+    dcterms:source "https://archive.org/details/procopius0001proc/page/n5/mode/2up" ;
+    dcterms:subject sits:person_Justinian ;
+    dcterms:title "History of the wars" .
+
+sits:item_coin dcterms:source "https://www.britishmuseum.org/collection/object/C_1852-0630-11" ;
+    dcterms:spatial "“The British Museum”" ;
+    dcterms:title "“Roman Coin: Aureus of Emperor Augustus\"" .
+
+sits:item_diptych dcterms:coverage "“Musée du Louvre, Département des Antiquités grecques, étrusques et romaines”" ;
+    dcterms:dateStart "“0525”^^xsd:gYear.  -   \"0550\"^^xsd:gYear" ;
+    dcterms:format "“Ivory”" ;
+    dcterms:source "<https://collections.louvre.fr/ark:/53355/cl010114082>" ;
+    dcterms:spatial "“Constantinople”" ;
+    dcterms:subject "“Justinian”" ;
+    dcterms:title "“Feuillet de diptyque en cinq parties : l'Empereur triomphant (Justinien ?”@fr" ;
+    dcterms:type "“Diptych”" .
+
+sits:item_hagia_sophia dcterms:creator "ex:EmperorJustinianI" ;
+    dcterms:source "<https://www.archnet.org/sites/1989>" ;
+    schema:additionalProperty "\"Current function: Mosque\"",
+        "\"Previous function: Museum (1935–2020)\"",
+        "“Original function: Eastern Orthodox Cathedral”" ;
+    schema:alternateName "“Ayasofya-i Kebir Cami-i Şerifi”" ;
+    schema:architecturalStyle "“Byzantine”" ;
+    schema:dateCreatedStart "\"0532\"^^xsd:gYear -     “0537\"^^xsd:gYear" .
+
+sits:item_movie schema:about "ex:EmpressTheodoraOfByzantium" ;
+    schema:actor "ex:GiannaMariaCanale" ;
+    schema:countryOfOrigin "ex:Italy" ;
+    schema:datePublished "\"1954\"^^xsd:gYear" ;
+    schema:director "ex:RiccardoFreda" ;
+    schema:genre "\"Historical drama\"" ;
+    schema:inLanguage "“It”" ;
+    schema:name "\"Theodora\"",
+        "a schema:Movie" ;
+    schema:url "<https://www.imdb.com/title/tt0047567/>" .
+
+sits:item_music schema:composer "ex:Farya Faraji" ;
+    schema:datePublished "\"2024\"^^xsd:gYear" ;
+    schema:duration "\"PT1H12M\"" ;
+    schema:encodingFormat "“Audio recording; Video upload”" ;
+    schema:identifier "“E6zzpya2FT4”" ;
+    schema:inLanguage "\"la\", \"el\"" ;
+    schema:name "“Justinian Epic Symphony”" ;
+    schema:provider "“YouTube; Apple Music; SoundCloud”" .
+
+sits:item_video_game dcterms:source "<https://civilization.fandom.com/wiki/Justinian_I>" ;
+    schema:creator "“Sid Meier”" ;
+    schema:datePublished "\"1991\"^^xsd:gYear" ;
+    schema:gameEdition "“Civilization VII”" ;
+    schema:genre "“4X Turn-Based Strategy”" ;
+    schema:publisher "“2K Games”",
+        "“Firaxis Games”" .
 

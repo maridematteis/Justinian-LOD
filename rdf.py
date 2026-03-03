@@ -40,30 +40,65 @@ for abbrev, uri_space in prefix_map.items():
 
 # Resolve CSV directory relative to this script's location
 base_dir = Path(__file__).resolve().parent
-data_dir = base_dir.parent / "csv_files" / "Formal_language"
+# CSV files are located inside the repository under csv_files/Formal_language
+data_dir = base_dir / "csv_files" / "Formal_language"
+
+# Collect CSV paths first so we can warn if none are found
+csv_paths = glob.glob(str(data_dir / '*.csv'))
+if not csv_paths:
+    print(f"Warning: no CSV files found in {data_dir}")
 
 collected_rows = []
 
-for filepath in glob.glob(str(data_dir / '*.csv')):
+for filepath in csv_paths:
     with open(filepath, "r", encoding="utf-8") as csv_file:
+        # DictReader reads the header row automatically; do not call next() here
         table = csv.DictReader(csv_file)
-        next(table)  # Skip the header row
 
         for entry in table:
             collected_rows.append(entry)
 
             # Strip surrounding whitespace from each triple component
-            raw_subj = entry['Subject'].strip()
-            raw_pred = entry['Predicate'].strip()
-            raw_obj  = entry['Object'].strip()
+            raw_subj = entry.get('Subject', '').strip()
+            raw_pred = entry.get('Predicate', '').strip()
+            raw_obj  = entry.get('Object', '').strip()
 
-            # Resolve subject URI from its prefix:localname pair
-            subj_prefix, subj_local = raw_subj.split(':')
-            subj_uri = prefix_map[subj_prefix][subj_local]
+            # Helper to resolve CURIEs or fall back to URIRef
+            def resolve_term(token):
+                token = token.strip()
+                if not token:
+                    return None
+                # If the token contains multiple alternatives (e.g. "A - B"),
+                # try to pick the part that looks like a CURIE or an http URI.
+                for sep in [' - ', ';', '|', ',']:
+                    if sep in token:
+                        parts = [p.strip() for p in token.split(sep) if p.strip()]
+                        # prefer a part that is a known CURIE or an http URI
+                        for part in parts:
+                            if (':' in part and part.split(':', 1)[0] in prefix_map) or part.startswith('http://') or part.startswith('https://'):
+                                token = part
+                                break
+                        else:
+                            token = parts[0]
+                if ':' in token:
+                    prefix, local = token.split(':', 1)
+                    if prefix in prefix_map:
+                        return prefix_map[prefix][local]
+                    if token.startswith('http://') or token.startswith('https://'):
+                        return URIRef(token)
+                    # Unknown prefix and not an http(s) URI: cannot resolve
+                    return None
+                else:
+                    # No colon; not a CURIE/URI we can resolve -> skip
+                    return None
 
-            # Resolve predicate URI
-            pred_prefix, pred_local = raw_pred.split(':')
-            pred_uri = prefix_map[pred_prefix][pred_local]
+            # Resolve subject and predicate safely
+            subj_uri = resolve_term(raw_subj)
+            pred_uri = resolve_term(raw_pred)
+
+            # If core components are missing, skip this row
+            if subj_uri is None or pred_uri is None:
+                continue
 
             # Attempt to resolve object as a URI if it contains a colon
             obj_node = None
@@ -92,4 +127,5 @@ for filepath in glob.glob(str(data_dir / '*.csv')):
 
 # Serialize the completed graph to Turtle format
 output_file = base_dir / "full_dataset.ttl"
-triple_graph.serialize(destination=output_file, format='turtle')
+triple_graph.serialize(destination=str(output_file), format='turtle')
+print(f"Wrote {len(triple_graph)} triples to {output_file}")
