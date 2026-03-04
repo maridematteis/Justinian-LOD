@@ -1,12 +1,12 @@
 Subject,Predicate,Object
-sits:item_mosaic,taken from,https://catalogo.beniculturali.it/detail/PhotographicHeritage/0800649118
-sits:item-mosaic,has title,Ravenna - San Vitale - Mosaico con Giustiniano e il suo seguito 
-sits:item_mosaic,created in,6th century
+sits:item_mosaic,dcterm:source,https://catalogo.beniculturali.it/detail/PhotographicHeritage/0800649118
+sits:item-mosaic,crm:P102_has_title,Ravenna - San Vitale - Mosaico con Giustiniano e il suo seguito 
+sits:item_mosaic,schema:dateCreated,6th century
 sits:item_mosaic,has time period,Byzantine Empire
-sits:item-mosaic,has type,Mosaic
+sits:item-mosaic,rdf:type,aat:300015342
 sits:item_mosaic,has material,glass paste
 sits:item_mosaic,has subject,Justinian I and his entourage
-sits:item_mosaic,portrays,Justinian I
-sits:item_mosaic,portrays,Maximianus of Ravenna
-sits:item_mosaic,portrays,Belisarius
-sits:item_mosaic,located in,"Basilica of San Vitale, Ravenna"
+sits:item_mosaic,crm:P49_depicts,sit:person_Justinian_I
+sits:item_mosaic,crm:P49_depicts,sits:person_Maximianus
+sits:item_mosaic,crm:P49_depicts,sits:persom_Belisarius
+sits:item_mosaic,schema:location,gn:3168604

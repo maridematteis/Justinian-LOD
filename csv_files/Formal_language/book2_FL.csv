@@ -2,7 +2,7 @@ Subject,Predicate,Object
 sits:item_book_2,dcterms:source,https://archive.org/details/procopius0001proc/page/n5/mode/2up
 sits:item_book_2,rdf:type,bf:text
 sits:item_book_2,dcterms:creator,viaf:272178390
-sits:item_book_2,dcterms:title ,History of the wars
+sits:item_book_2,dcterms:title,"""History of the wars""@en"
 sits:item_book_2,dcterms:publisher,Cambridge : Harvard Univ. Press
 sits:item_book_2,dcterms:issued,"""1914""^^xsd:gYear "
 sits:item_book_2,dcterms:identifier,procopius0001proc

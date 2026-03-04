@@ -1,10 +1,10 @@
 Subject,Predicate,Object
-sits:item_diptych,dcterms:source,<https://collections.louvre.fr/ark:/53355/cl010114082>
+sits:item_diptych,dcterms:source,https://collections.louvre.fr/ark:/53355/cl010114082
 sits:item_diptych,dcterms:title,“Feuillet de diptyque en cinq parties : l'Empereur triomphant (Justinien ?”@fr
-sits:item_diptych,dcterms:format,“Ivory”
-sits:item_diptych,dcterms:dateStart - dcterm:dateEnd,"“0525”^^xsd:gYear.  -   ""0550""^^xsd:gYear "
-sits:item_diptych,dcterms:type,“Diptych”
-sits:item_diptych,dcterms:coverage,"“Musée du Louvre, Département des Antiquités grecques, étrusques et romaines”"
-sits:item_diptych,dcterm:extent,"“34,2 cm”"
-sits:item_diptych,dcterms:subject,“Justinian”
-sits:item_diptych,dcterms:spatial,“Constantinople”
+sits:item_diptych,dcterms:medium,aat:300011829
+sits:item_diptych,dcterms:created,0525- 0550
+sits:item_diptych,dcterms:type,aat:300033991
+sits:item_diptych,schema:location,wd:Q19675
+sits:item_diptych,dcterm:extent,34.2
+sits:item_diptych,dcterms:subject,sits:person_justinian_I
+sits:item_diptych,schema:locationCreated,wd:Q19675

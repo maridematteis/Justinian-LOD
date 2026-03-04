@@ -1,11 +1,11 @@
 Subject,Predicate,Object
 sits:item_movie,schema:url,<https://www.imdb.com/title/tt0047567/>
-sits:item_movie,schema:name,"""Theodora"""
-sits:item_movie,schema:datePublished,"""1954""^^xsd:gYear"
-sits:item_movie,schema:name,a schema:Movie
-sits:item_movie,schema:director,ex:RiccardoFreda
-sits:item_movie,schema:countryOfOrigin,ex:Italy
-sits:item_movie,schema:inLanguage,“It”
-sits:item_movie,schema:about,ex:EmpressTheodoraOfByzantium
-sits:item_movie,schema:genre,"""Historical drama"""
-sits:item_movie,schema:actor,ex:GiannaMariaCanale
+sits:item_movie,skos:altLabel,Theodora
+sits:item_movie,schema:datePublished,1954
+sits:item_movie,rdf:type,dbo:Film
+sits:item_movie,schema:director,wd:Q750983
+sits:item_movie,schema:countryOfOrigin,sits:country_Italy
+sits:item_movie,schema:inLanguage,sits:language_Italian
+sits:item_movie,schema:about,sits:person_Theodora
+sits:item_movie,schema:genre,wd:Q6632795
+sits:item_movie,schema:actor,wd:Q33993

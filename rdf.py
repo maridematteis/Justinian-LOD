@@ -22,6 +22,8 @@ prefix_map = {
     "bibo" : Namespace("http://purl.org/ontology/bibo/"),
     "rda"  : Namespace("http://rdaregistry.info/Elements/a/"),
     "metadigit" : Namespace("http://www.iccu.sbn.it/metaAG1"),
+    "nmo"  : Namespace("http://nomisma.org/ontology#"),
+    "nm"   : Namespace("http://nomisma.org/id/"),
     "foaf" : FOAF,
     "schema" : Namespace("https://schema.org/"),
     "viaf" : Namespace("https://viaf.org/en"),
