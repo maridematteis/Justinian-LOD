@@ -7,4 +7,4 @@ sits:item_book_2,dcterms:publisher,Cambridge : Harvard Univ. Press
 sits:item_book_2,dcterms:issued,"""1914""^^xsd:gYear "
 sits:item_book_2,dcterms:identifier,procopius0001proc
 sits:item_book_2,dcterms:identifier,“1256733539”
-sits:item_book_2,dcterms:subject,sits:person_Justinian
+sits:item_book_2,dcterms:subject,sits:person_Justinian_I
