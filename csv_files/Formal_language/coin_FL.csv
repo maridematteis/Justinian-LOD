@@ -1,10 +1,11 @@
 Subject,Predicate,Object
-sits:item_coin,dcterms:source,https://www.britishmuseum.org/collection/object/C_1852-0630-11
+sits:item_coin,dcterms:source,<https://www.britishmuseum.org/collection/object/C_1852-0630-11>
 sits:item_coin,dcterms:title,"“Roman Coin: Aureus of Emperor Augustus"""
-sits:item_coin,nmo:material,nm:gold
-sits:item_coin,nmo:denomination,nm:aureus
+sits:item_coin,nmo:hasMaterial,nm:gold
+sits:item_coin,nmo:hasDenomination,nm:aureus
 sits:item_coin,nmo:hasAuthority,nm:augustus
-sits:item_coin,nmo:mint,nm:rome
-sits:item_coin,nmo:dateStart - nmo:dateEnd,"“-0007""^^xsd:gYear  - ""-0002""^^xsd:gYear "
-sits:item_coin,schema:location,wd:Q6373
+sits:item_coin,nmo:hasMint,nm:rome
+sits:item_coin,nmo:dateStart,"“-0006""^^xsd:gYear "
+sits:item_coin,nmo:dateEnd,"""-0001""^^xsd:gYear "
+sits:item_coin,crm:P55_has_current_location,wd:Q6373
 sits:item_coin,dcerms:identifier,"“C.1852,0630.11”"

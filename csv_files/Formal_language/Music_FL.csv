@@ -1,11 +1,15 @@
 Subject,Predicate,Object
-sits:item_music,Schema:url,https://www.youtube.com/watch?v=E6zzpya2FT4
+sits:item_music,Schema:url,<https://www.youtube.com/watch?v=E6zzpya2FT4>
 sits:item_music,dcterms:title,Justinian Epic Symphony
 sits:item_music,schema:composer,wd:Q135142173
 sits:item_music,schema:datePublished,2024
-sits:item_music,schema:encodingFormat,“Audio recording; Video upload”
+sits:item_music,schema:encodingFormat,“Audio recording”
+sits:item_music,schema:encodingFormat,“Video upload”
 sits:item_music,schema:duration,"""PT1H12M"""
-sits:item_music,dcterms:language,"""la"", ""el"" "
+sits:item_music,dcterms:language,"""la"" "
+sits:item_music,dcterms:language,"""el"" "
 sits:item_music,Schema:description,“Period and court-style instruments (circa year 1000)”
-sits:item_music,schema:provider,“YouTube; Apple Music; SoundCloud”
+sits:item_music,schema:provider,“YouTube”
+sits:item_music,schema:provider,"""Apple Music"""
+sits:item_music,schema:provider,“SoundCloud”
 sits:item_music,schema:identifier,“E6zzpya2FT4”

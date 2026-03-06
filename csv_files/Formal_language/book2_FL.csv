@@ -1,10 +1,11 @@
 Subject,Predicate,Object
-sits:item_book_2,dcterms:source,https://archive.org/details/procopius0001proc/page/n5/mode/2up
-sits:item_book_2,rdf:type,bf:text
-sits:item_book_2,dcterms:creator,viaf:272178390
+sits:item_book_2,dcterms:source,<https://archive.org/details/procopius0001proc/page/n5/mode/2up>
+sits:item_book_2,rdf:type,bf:Text
+sits:item_book_2,dcterms:creator,<http://viaf.org/viaf/100179778>
 sits:item_book_2,dcterms:title,"""History of the wars""@en"
-sits:item_book_2,dcterms:publisher,Cambridge : Harvard Univ. Press
+sits:item_book_2,dcterms:publisher,"""Cambridge : Harvard Univ. Press"""
 sits:item_book_2,dcterms:issued,"""1914""^^xsd:gYear "
-sits:item_book_2,dcterms:identifier,procopius0001proc
-sits:item_book_2,dcterms:identifier,“1256733539”
-sits:item_book_2,dcterms:subject,sits:person_Justinian_I
+sits:item_book_2,dcterms:identifier,"""procopius0001proc"""
+sits:item_book_2,bf:identifiedBy,"[ a bf:Oclc ; rdf:value ""1256733539"" ]"
+sits:item_book_2,dcterms:subject,<http://id.loc.gov/authorities/names/n79071858>
+stis:item_book_2,schema:about,sits:person_Jusitiinian_I
