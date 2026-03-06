@@ -1,11 +1,12 @@
 Subject,Predicate,Object
-sits:item_hagia_sophia,dcterms:source,https://www.archnet.org/sites/1989
-sits:item_hagia_sophia,dcterms:title,Hagia Sophia
-sits:item_hagia_sophia,schema:alternateName,Ayasofya-i Kebir Cami-i Şerifi
-sits:item_hagia_sophia,schema:dateCreatedStart - schema:dateCreatedEnd,0532- 0537
-sits:item_hagia_sophia,dcterms:creator,sits:person_justinian_1
-sits:item_hagia_sophia,Designed by,ex:AnthemiusOfTralles; ex:IsidoreOfMiletus
-sits:item_hagia_sophia,schema:architecturalStyle,“Byzantine”
-sits:item_hagia_sophia,schema:additionalProperty,“Original function: Eastern Orthodox Cathedral”
-sits:item_hagia_sophia,schema:additionalProperty,"""Previous function: Museum (1935–2020)"""
-sits:item_hagia_sophia,schema:additionalProperty,"""Current function: Mosque"""
+sits:item_hagia_sophia,dcterms:source,<https://www.archnet.org/sites/1989>
+sits:item_hagia_sophia,dcterms:title,"""Hagia Sophia""@en"
+sits:item_hagia_sophia,schema:alternateName,"""Ayasofya-i Kebir Cami-i Şerifi""@tr"
+sits:item_hagia_sophia,dcterms:created,"""0532/0537""^^edtf:EDTF"
+sits:item_hagia_sophia,sits:commissionedBy,sits:person_justinian_1
+sits:item_hagia_sophia,crm:P14_carried_out_by,ex:AnthemiusOfTralles
+sits:item_hagia_sophia,crm:P14_carried_out_by,ex:IsidoreOfMiletus
+sits:item_hagia_sophia,schema:architecturalStyle,wd:Q186350
+sits:item_hagia_sophia,schema:additionalProperty,"[ a schema:PropertyValue ; schema:name ""Original function"" ; schema:value ""Eastern Orthodox Cathedral"" ]"
+sits:item_hagia_sophia,schema:additionalProperty,"[ a schema:PropertyValue ; schema:name ""Previous function"" ; schema:value ""Museum (1935–2020)"" ]"
+sits:item_hagia_sophia,schema:additionalProperty,"[ a schema:PropertyValue ; schema:name ""Current function"" ; schema:value ""Mosque"" ]"

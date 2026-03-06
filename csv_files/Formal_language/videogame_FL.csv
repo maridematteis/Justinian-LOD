@@ -9,4 +9,4 @@ sits:item_video_game,schema:publisher,ex:2KGames
 sits:item_video_game,schema:gameEdition,“Civilization VII”
 sits:item_video_game,ex:definingFeature,"“Progression through Ages (Antiquity, Exploration, Modern)”"
 sits:item_video_game,ex:victoryCondition,“Economic”
-sits:item_video_game,ex:featuresLeader,ex:JustinianI
+sits:item_video_game,ex:featuresLeader,sits:person_justinian_I
