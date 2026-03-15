@@ -1,88 +1,130 @@
+@prefix aat: <http://vocab.getty.edu/aat/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <https://cidoc-crm.org/html/cidoc_crm/> .
+@prefix dbo: <https://dbpedia.org/ontology/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix nm: <http://nomisma.org/id/> .
+@prefix nmo: <http://nomisma.org/ontology#> .
 @prefix schema: <https://schema.org/> .
 @prefix sits: <https://github.com/Iustinianus-LOD/Justinian-LOD.git> .
-@prefix viaf: <https://viaf.org/en> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <https://www.wikidata.org/wiki/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-sits:item_board_game schema:creator "ex:LeoColovini , ex:AlessandroSaragosa" ;
-    schema:datePublished "\"2006\"^^xsd:gYear" ;
-    schema:gameMechanics "“Bluffing; Influence; Betting\"" ;
-    schema:material "\"Game board; Tokens; Cards; Box\"" ;
+sits:item_board_game schema:datePublished "\"2006\"^^xsd:gYear" ;
+    schema:designer "ex:AlessandroSaragosa",
+        "ex:LeoColovini" ;
+    schema:gameMechanics "\"Betting\"",
+        "\"Bluffing\"",
+        "\"Influence\"" ;
+    schema:hasPart "\"Box\"",
+        "\"Cards\"",
+        "\"Game board\"",
+        "\"Tokens\"" ;
+    schema:illustrator "ex:HaraldLieske" ;
     schema:name "\"Justinian: Intrigue at the Emperor’s Court\"" ;
     schema:numberOfPlayers "“2–4 players\"" ;
-    schema:publisher "ex:PhalanxGames , ex:MayfairGames" ;
-    schema:timeRequired "\"PT45M\"" ;
-    schema:url "<https://boardgamegeek.com/boardgame/22938/justinian-intrigue-at-the-emperors-court>" .
+    schema:publisher "ex:MayfairGames",
+        "ex:PhalanxGames" ;
+    schema:sameAs "https://boardgamegeek.com/boardgame/22938/justinian-intrigue-at-the-emperors-court" ;
+    schema:timeRequired "\"PT45M\"" .
 
-sits:item_book_1 dcterms:date "\"0600\"^^xsd:gYear" ;
-    dcterms:description "\"Roman law\"" ;
-    dcterms:format "\"Greek uncial script\"" ;
+sits:item_book_1 a bf:Text ;
+    bf:heldBy "ex:BibliotecaMediceaLaurenziana" ;
+    dcterms:date "\"0600\"^^xsd:gYear" ;
     dcterms:isPartOf "ex:CorpusIurisCivilis" ;
-    dcterms:language "“Latin”" ;
-    dcterms:medium "“Parchment”" ;
-    dcterms:publisher "\"Biblioteca Medicea Laurenziana, Florence\"" ;
+    dcterms:language "<http://id.loc.gov/vocabulary/languages/lat>" ;
     dcterms:source "<https://tecabml.contentdm.oclc.org/digital/collection/pandette/id/4/rec/1>" ;
-    dcterms:spatial "\"Constantinople\"" ;
-    dcterms:title "Codex Florentinus" ;
-    dcterms:type "“Manuscript (Pandects)”" .
+    dcterms:spatial "<https://www.geonames.org/745044>" ;
+    dcterms:subject "<http://id.loc.gov/authorities/subjects/sh85115573>" ;
+    dcterms:title "\"Codex Florentinus\"@la" ;
+    bibo:annotates "\"Greek uncial script\"" .
 
-sits:item_book_2 a bf:text ;
-    dcterms:creator viaf:272178390 ;
-    dcterms:identifier "procopius0001proc",
-        "“1256733539”" ;
+sits:item_book_2 a bf:Text ;
+    bf:identifiedBy "[ a bf:Oclc ; rdf:value \"1256733539\" ]" ;
+    dcterms:creator "<http://viaf.org/viaf/100179778>" ;
+    dcterms:identifier "\"procopius0001proc\"" ;
     dcterms:issued "\"1914\"^^xsd:gYear" ;
-    dcterms:publisher "Cambridge : Harvard Univ. Press" ;
-    dcterms:source "https://archive.org/details/procopius0001proc/page/n5/mode/2up" ;
-    dcterms:subject sits:person_Justinian ;
-    dcterms:title "History of the wars" .
+    dcterms:publisher "\"Cambridge : Harvard Univ. Press\"" ;
+    dcterms:source "<https://archive.org/details/procopius0001proc/page/n5/mode/2up>" ;
+    dcterms:subject "<http://id.loc.gov/authorities/names/n79071858>" ;
+    dcterms:title "\"History of the wars\"@en" .
 
-sits:item_coin dcterms:source "https://www.britishmuseum.org/collection/object/C_1852-0630-11" ;
-    dcterms:spatial "“The British Museum”" ;
-    dcterms:title "“Roman Coin: Aureus of Emperor Augustus\"" .
+sits:item_coin nmo:dateEnd "\"-0001\"^^xsd:gYear" ;
+    nmo:dateStart "“-0006\"^^xsd:gYear" ;
+    nmo:hasAuthority nm:augustus ;
+    nmo:hasDenomination nm:aureus ;
+    nmo:hasMaterial nm:gold ;
+    nmo:hasMint nm:rome ;
+    dcterms:source "<https://www.britishmuseum.org/collection/object/C_1852-0630-11>" ;
+    dcterms:title "“Roman Coin: Aureus of Emperor Augustus\"" ;
+    crm:P55_has_current_location wd:Q6373 .
 
-sits:item_diptych dcterms:coverage "“Musée du Louvre, Département des Antiquités grecques, étrusques et romaines”" ;
-    dcterms:dateStart "“0525”^^xsd:gYear.  -   \"0550\"^^xsd:gYear" ;
-    dcterms:format "“Ivory”" ;
+sits:item_diptych dcterms:created "\"0525/0550\"^^edtf:EDTF" ;
+    dcterms:medium aat:300011829 ;
     dcterms:source "<https://collections.louvre.fr/ark:/53355/cl010114082>" ;
-    dcterms:spatial "“Constantinople”" ;
-    dcterms:subject "“Justinian”" ;
+    dcterms:subject sits:person_justinian_I ;
     dcterms:title "“Feuillet de diptyque en cinq parties : l'Empereur triomphant (Justinien ?”@fr" ;
-    dcterms:type "“Diptych”" .
+    dcterms:type aat:300033991 ;
+    crm:P43_has_dimension "a crm:E54_Dimension" ;
+    crm:P55_has_current_location wd:Q19675 ;
+    schema:locationCreated wd:Q16869 .
 
-sits:item_hagia_sophia dcterms:creator "ex:EmperorJustinianI" ;
+sits:item_hagia_sophia dcterms:created "\"0532/0537\"^^edtf:EDTF" ;
     dcterms:source "<https://www.archnet.org/sites/1989>" ;
-    schema:additionalProperty "\"Current function: Mosque\"",
-        "\"Previous function: Museum (1935–2020)\"",
-        "“Original function: Eastern Orthodox Cathedral”" ;
-    schema:alternateName "“Ayasofya-i Kebir Cami-i Şerifi”" ;
-    schema:architecturalStyle "“Byzantine”" ;
-    schema:dateCreatedStart "\"0532\"^^xsd:gYear -     “0537\"^^xsd:gYear" .
+    dcterms:title "\"Hagia Sophia\"@en" ;
+    crm:P14_carried_out_by "ex:AnthemiusOfTralles",
+        "ex:IsidoreOfMiletus" ;
+    sits:commissionedBy sits:person_justinian_1 ;
+    schema:additionalProperty "[ a schema:PropertyValue ; schema:name \"Current function\" ; schema:value \"Mosque\" ]",
+        "[ a schema:PropertyValue ; schema:name \"Original function\" ; schema:value \"Eastern Orthodox Cathedral\" ]",
+        "[ a schema:PropertyValue ; schema:name \"Previous function\" ; schema:value \"Museum (1935–2020)\" ]" ;
+    schema:alternateName "\"Ayasofya-i Kebir Cami-i Şerifi\"@tr" ;
+    schema:architecturalStyle wd:Q186350 .
 
-sits:item_movie schema:about "ex:EmpressTheodoraOfByzantium" ;
-    schema:actor "ex:GiannaMariaCanale" ;
-    schema:countryOfOrigin "ex:Italy" ;
-    schema:datePublished "\"1954\"^^xsd:gYear" ;
-    schema:director "ex:RiccardoFreda" ;
-    schema:genre "\"Historical drama\"" ;
-    schema:inLanguage "“It”" ;
-    schema:name "\"Theodora\"",
-        "a schema:Movie" ;
+sits:item_mosaic a aat:300015342 ;
+    dcterms:created "\"0526/0547\"^^edtf:EDTF" ;
+    dcterms:source "<https://catalogo.beniculturali.it/detail/PhotographicHeritage/0800649118>" ;
+    dcterms:subject "\"Justinian I and his entourage\"@en" ;
+    crm:P102_has_title "\"Ravenna - San Vitale - Mosaico con Giustiniano e il suo seguito\"@it" ;
+    crm:P45_consists_of aat:300010797 ;
+    crm:P4_has_time-span wd:Q7075 ;
+    crm:P55_has_current_location "<https://www.geonames.org/3169561>" ;
+    crm:P62_depicts sits:person_Belisarius,
+        sits:person_Justinian_I,
+        sits:person_Maximianus .
+
+sits:item_movie a dbo:Film ;
+    skos:altLabel "Theodora" ;
+    schema:about sits:person_Theodora ;
+    schema:actor wd:Q33993 ;
+    schema:countryOfOrigin sits:country_Italy ;
+    schema:datePublished "1954"^^xsd:gYear ;
+    schema:director wd:Q750983 ;
+    schema:genre wd:Q6632795 ;
+    schema:inLanguage sits:language_Italian ;
     schema:url "<https://www.imdb.com/title/tt0047567/>" .
 
-sits:item_music schema:composer "ex:Farya Faraji" ;
-    schema:datePublished "\"2024\"^^xsd:gYear" ;
+sits:item_music dcterms:language "\"el\"",
+        "\"la\"" ;
+    dcterms:title "Justinian Epic Symphony" ;
+    schema:composer wd:Q135142173 ;
+    schema:datePublished "2024"^^xsd:gYear ;
     schema:duration "\"PT1H12M\"" ;
-    schema:encodingFormat "“Audio recording; Video upload”" ;
+    schema:encodingFormat "“Audio recording”",
+        "“Video upload”" ;
     schema:identifier "“E6zzpya2FT4”" ;
-    schema:inLanguage "\"la\", \"el\"" ;
-    schema:name "“Justinian Epic Symphony”" ;
-    schema:provider "“YouTube; Apple Music; SoundCloud”" .
+    schema:provider "\"Apple Music\"",
+        "“SoundCloud”",
+        "“YouTube”" .
 
 sits:item_video_game dcterms:source "<https://civilization.fandom.com/wiki/Justinian_I>" ;
-    schema:creator "“Sid Meier”" ;
+    dcterms:title "\"Civilization Series\"" ;
+    schema:creator "ex.SidMeier" ;
     schema:datePublished "\"1991\"^^xsd:gYear" ;
     schema:gameEdition "“Civilization VII”" ;
     schema:genre "“4X Turn-Based Strategy”" ;
-    schema:publisher "“2K Games”",
-        "“Firaxis Games”" .
+    schema:publisher "ex:2KGames",
+        "ex:FireaxisGames" .
 

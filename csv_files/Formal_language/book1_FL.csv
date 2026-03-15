@@ -1,12 +1,12 @@
 Subject,Predicate,Object
 sits:item_book_1,dcterms:source,<https://tecabml.contentdm.oclc.org/digital/collection/pandette/id/4/rec/1>
 sits:item_book_1,dcterms:isPartOf,ex:CorpusIurisCivilis
-sits:item_book_1,bf:heldBy,ex:Biblioteca Medicea Laurenziana
+sits:item_book_1,bf:heldBy,ex:BibliotecaMediceaLaurenziana
 sits:item_book_1,rdf:type,bf:Text
 sits:item_book_1,dcterms:language,<http://id.loc.gov/vocabulary/languages/lat>
 sits:item_book_1,dcterms:date,"""0600""^^xsd:gYear "
 sits:item_book_1,dcterms:spatial,<https://www.geonames.org/745044>
-sits:item_book_1,dcterms:medium,<http://vocab.getty.edu/aat/300011851>
-sits:item_book_1,dcterms:format,"""Greek uncial script"""
-sits:item_book_1,dcterms:description,<http://id.loc.gov/authorities/subjects/sh85115573>
+sits:item_book_1,dcterm:medium,<http://vocab.getty.edu/aat/300011851>
+sits:item_book_1,bibo:annotates,"""Greek uncial script"""
+sits:item_book_1,dcterms:subject,<http://id.loc.gov/authorities/subjects/sh85115573>
 sits:item_book_1,dcterms:title,"""Codex Florentinus""@la"
