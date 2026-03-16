@@ -1,7 +1,7 @@
 Subject,Predicate,Object
 sits:item_mosaic,dcterms:source,<https://catalogo.beniculturali.it/detail/PhotographicHeritage/0800649118>
 sits:item_mosaic,crm:P102_has_title ,"""Ravenna - San Vitale - Mosaico con Giustiniano e il suo seguito""@it"
-sits:item_mosaic,dcterms:created,"""0526/0547""^^edtf:EDTF"
+sits:item_mosaic,dcterms:created,"""0526/0547"""
 sits:item_mosaic,crm:P4_has_time-span, wd:Q7075
 sits:item_mosaic,rdf:type,aat:300015342
 sits:item_mosaic,crm:P45_consists_of,aat:300010797

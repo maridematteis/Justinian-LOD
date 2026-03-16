@@ -1,17 +1,17 @@
 Subject,Predicate,Object
 sits:item_board_game,schema:sameAs,https://boardgamegeek.com/boardgame/22938/justinian-intrigue-at-the-emperors-court
-sits:item_board_game,schema:name,"""Justinian: Intrigue at the Emperor’s Court"" "
-sits:item_board_game,schema:designer,ex:LeoColovini
-sits:item_board_game,schema:designer,ex:AlessandroSaragosa
-sits:item_board_game,schema:publisher,ex:PhalanxGames 
-sits:item_board_game,schema:publisher,ex:MayfairGames 
-sits:item_board_game,schema:datePublished,"""2006""^^xsd:gYear "
-sits:item_board_game,schema:illustrator,ex:HaraldLieske
-sits:item_board_game,schema:numberOfPlayers ,"“2–4 players"""
+sits:item_board_game,schema:name,Justinian: Intrigue at the Emperor’s Court
+sits:item_board_game,dcterms:creator,sits:person_LeoColovini
+sits:item_board_game,dcterms:creator,sits:person_AlessandroSaragosa
+sits:item_board_game,schema:publisher,sits:org_PhalanxGames 
+sits:item_board_game,schema:publisher,sits:org_MayfairGames 
+sits:item_board_game,schema:datePublished,"""2006"""
+sits:item_board_game,dcterms:contributor,sits:person_HaraldLieske
+sits:item_board_game,schema:numberOfPlayers ,2–4 players
 sits:item_board_game,schema:timeRequired,"""PT45M"""
-sits:item_board_game,schema:gameMechanics,"""Bluffing"""
-sits:item_board_game,schema:gameMechanics,"""Influence"""
-sits:item_board_game,schema:gameMechanics,"""Betting"""
+sits:item_board_game,sits:gameMechanics,"""Bluffing"""
+sits:item_board_game,sits:gameMechanics,"""Influence"""
+sits:item_board_game,sits:gameMechanics,"""Betting"""
 sits:item_board_game,schema:hasPart,"""Game board"""
 sits:item_board_game,schema:hasPart,"""Tokens"""
 sits:item_board_game,schema:hasPart,"""Cards"""
