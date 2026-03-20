@@ -1,0 +1,22 @@
+Subject,Predicate,Object
+sits:person_Belsarius,dcterms:isReferencedBy,sits:item_music
+sits:person_Belisarius,dcterms:isReferencedBy,sits:item_board_game
+sits:person_Belisarius,dcterms:isReferencedBy,sits:item_book_2
+sits:person_Belisarius,sits:isMagisterMilitumOf,sits:person_Justinian_I
+sits:person_Theodora,schema:spouse,sits:person_Justinian_I
+sits:person_Theodora,dcterms:isReferencedBy,sits:item_book_2
+sits:person_Theodora,dcterms:isReferencedBy,sits:item_board_game
+sits:institution_LouvreMuseum,rdf:type,schema:Museum
+sits:institution_LouvreMuseum,owl:sameAs,wd:Q19675
+sits:institution_BritishMuseum,rdf:type,schema:Museum
+sits:institution_BritishMuseum,owl:sameAs,wd:Q6273
+sits:institution_LouvreMuseum,schema:location,wd:Q142
+sits:collection_CorpusIurisCivilis,skos:altLabel,"""Codex Pisanus"""
+sits:collection_CorpusIurisCivilis,dcterms:creator,sits:person_Justinian_I
+sits:item_hagia_sophia,dcterms:type,aat:300007742
+sits:place_BasilicaDiSanVitale,dcterms:type,aat:300007742
+sits:place_BasilicaDiSanVitale,owl:sameAs,wd:Q200543
+sits:concept_GreekUncial,rdf:type,bf:Script
+sits:place_ByzantineEmpire,sits:hasCapital,sits:place_Constantinople
+sits:place_ByzantineEmpire,owl:sameAs,wd:Q7075
+sits:place_Constantinople,owl:sameAs,wd:Q16869
