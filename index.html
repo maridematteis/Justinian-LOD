@@ -508,7 +508,7 @@ A legend which visually describes what has been just declared can be found withi
                     style="max-width:100%; height:auto; cursor:pointer;">
               </a>
             </div>
-            <p class="text-muted small mt-2">Theoretical model (click to enlarge)</p>
+            <p class="text-muted small mt-2">Theoretical model (click on imageto enlarge)</p>
           </div>
         </div>
       
@@ -518,7 +518,23 @@ A legend which visually describes what has been just declared can be found withi
           
           <div class="idea-text">
             <p>
-              CYRUS? RUMANA? assets/img/FL2.drawio.svg
+              <div class="idea-text">
+                <p>
+                  The definition of our Conceptual Model began with the identification and formalization of the relationships between the metadata of our selected cultural heritage items and the core theme of Emperor Justinian’s cultural legacy. The objective was to elevate the entities, relationships, and concepts from our theoretical model to a formal and abstract level, assigning to each an appropriate class and property from existing vocabularies and ontologies.
+                </p>
+                <p>
+                  As a starting point, we created custom URIs (Uniform Resource Identifier) to uniquely identify the entities in our project, establishing our base URI: <code>https://github.com/Iustinianus-LOD/Justinian-LOD/</code>.
+                </p>
+                <p>
+                  To formally represent the subject–predicate–object relationships, we began with our project's items as the subjects. For each predicate, we sought the best way to express the relationship identified in the theoretical model by using the most suitable properties from existing ontologies. The object of the relationship was then modeled as a concrete entity.
+                </p>
+                <p>
+                  The choice of which specific vocabulary, schema, or ontology to use for a given class or property was made on a case‑by‑case basis, depending on the nature of the entity being described and the metadata standards that might be relevant. We relied on vocabularies pertinent to our domain and the entities we wanted to represent. Specifically, for our bibliographic resources (such as the manuscript we analyzed), we primarily used the BIBFRAME schema, which is the standard for describing bibliographic information. For the museum and artistic items, we relied on CIDOC‑CRM, while for people, places, and organizations we employed FOAF and Schema.org.
+                </p>
+                <p>
+                  This combination ensured excellent flexibility while maintaining semantic coherence across various data sources.
+                </p>
+              </div>
             </p>
           </div>
         <!-- CONCEPTUAL MODEL DIAGRAM -->
@@ -529,14 +545,14 @@ A legend which visually describes what has been just declared can be found withi
                   class="img-fluid"
                   style="max-width:100%; height:auto; cursor:pointer;">
             </a>
-            <p class="text-muted small mt-2">Conceptual model (click to enlarge)</p>
+            <p class="text-muted small mt-2">Conceptual model (click on image to enlarge)</p>
           </div>
           <div class="idea-text">
               <p>
                   The full list of namespace prefixes used in our ontology includes:
               </p>
               <ul style="text-align:center; list-style:none; padding:0;">
-                <li>@prefix <strong>sits:</strong> &lt;https://github.com/The-Sword-in-the-Stone-LOD/The-Sword-in-the-Stone-LOD/&gt;</li>
+                <li>@prefix <strong>sits:</strong> &lt;https://iustinianus-lod.github.io/Justinian-LOD//&gt;</li>
                 <li>@prefix <strong>aat:</strong> &lt;http://vocab.getty.edu/aat/&gt;</li>
                 <li>@prefix <strong>bf:</strong> &lt;http://id.loc.gov/ontologies/bibframe/&gt;</li>
                 <li>@prefix <strong>bibo:</strong> &lt;http://purl.org/ontology/bibo/&gt;</li>
