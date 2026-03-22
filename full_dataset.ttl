@@ -6,28 +6,20 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix nm: <http://nomisma.org/id/> .
 @prefix nmo: <http://nomisma.org/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix schema: <https://schema.org/> .
 @prefix sits: <https://github.com/Iustinianus-LOD/Justinian-LOD.git/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wd: <https://www.wikidata.org/wiki/> .
 
-sits:item_board_game dcterms:contributor sits:person_HaraldLieske ;
-    dcterms:creator sits:person_AlessandroSaragosa,
-        sits:person_LeoColovini ;
-    sits:gameMechanics "Betting",
-        "Bluffing",
-        "Influence" ;
-    schema:datePublished "2006" ;
-    schema:hasPart "Box",
-        "Cards",
-        "Game board",
-        "Tokens" ;
-    schema:name "Justinian: Intrigue at the Emperor’s Court" ;
-    schema:numberOfPlayers "2–4 players" ;
-    schema:publisher sits:org_MayfairGames,
-        sits:org_PhalanxGames ;
-    schema:sameAs <https://boardgamegeek.com/boardgame/22938/justinian-intrigue-at-the-emperors-court> ;
-    schema:timeRequired "PT45M" .
+sits:concept_GreekUncial a bf:Script .
+
+sits:institution_BritishMuseum a schema:Museum ;
+    owl:sameAs wd:Q6273 .
+
+sits:institution_LouvreMuseum a schema:Museum ;
+    owl:sameAs wd:Q19675 ;
+    schema:location wd:Q142 .
 
 sits:item_book_1 a bf:Text ;
     bf:heldBy sits:institution_BibliotecaMediceaLaurenziana ;
@@ -40,17 +32,6 @@ sits:item_book_1 a bf:Text ;
     dcterms:subject <http://id.loc.gov/authorities/subjects/sh85115573> ;
     dcterms:title "Codex Florentinus"@la ;
     bibo:annotates "Greek uncial script" .
-
-sits:item_book_2 a bf:Text ;
-    bf:identifiedBy "1256733539" ;
-    dcterms:creator <http://viaf.org/viaf/100179778> ;
-    dcterms:identifier "procopius0001proc" ;
-    dcterms:issued "1914" ;
-    dcterms:publisher "Cambridge : Harvard Univ. Press" ;
-    dcterms:source <https://archive.org/details/procopius0001proc/page/n5/mode/2up> ;
-    dcterms:subject <http://id.loc.gov/authorities/names/n79071858> ;
-    dcterms:title "History of the wars"@en ;
-    schema:about sits:person_Justinian_I .
 
 sits:item_coin nmo:dateEnd "-1" ;
     nmo:dateStart "-6" ;
@@ -76,6 +57,7 @@ sits:item_diptych dcterms:created "0525/0550" ;
 sits:item_hagia_sophia dcterms:created "0532/0537" ;
     dcterms:source <https://www.archnet.org/sites/1989> ;
     dcterms:title "Hagia Sophia"@en ;
+    dcterms:type aat:300007742 ;
     sits:commissionedBy sits:person_Justinian_I ;
     sits:currentFunction "Mosque" ;
     sits:designedBy sits:person_AnthemiusOfTralles,
@@ -108,6 +90,29 @@ sits:item_movie a dbo:Film ;
     schema:inLanguage sits:language_Italian ;
     schema:url <https://www.imdb.com/title/tt0047567/> .
 
+sits:item_video_game dcterms:source <https://civilization.fandom.com/wiki/Justinian_I> ;
+    dcterms:title "Civilization Series" ;
+    sits:definingFeature "Progression through Ages (Antiquity, Exploration, Modern)" ;
+    sits:featuresLeader sits:person_Justinian_I ;
+    sits:victoryCondition "Economic" ;
+    schema:creator sits:person_SidMeier ;
+    schema:datePublished "1991" ;
+    schema:gameEdition "Civilization VII" ;
+    schema:genre "4X Turn-Based Strategy" ;
+    schema:publisher sits:org_FireaxisGames,
+        sits:org_KGames .
+
+sits:person_Belsarius dcterms:isReferencedBy sits:item_music .
+
+sits:place_BasilicaDiSanVitale dcterms:type aat:300007742 ;
+    owl:sameAs wd:Q200543 .
+
+sits:place_ByzantineEmpire owl:sameAs wd:Q7075 ;
+    sits:hasCapital sits:place_Constantinople .
+
+sits:collection_CorpusIurisCivilis dcterms:creator sits:person_Justinian_I ;
+    skos:altLabel "Codex Pisanus" .
+
 sits:item_music dcterms:language "el",
         "la" ;
     dcterms:title "Justinian Epic Symphony" ;
@@ -123,15 +128,42 @@ sits:item_music dcterms:language "el",
         "YouTube" ;
     schema:url <https://www.youtube.com/watch?v=E6zzpya2FT4> .
 
-sits:item_video_game dcterms:source <https://civilization.fandom.com/wiki/Justinian_I> ;
-    dcterms:title "Civilization Series" ;
-    sits:definingFeature "Progression through Ages (Antiquity, Exploration, Modern)" ;
-    sits:featuresLeader sits:person_Justinian_I ;
-    sits:victoryCondition "Economic" ;
-    schema:creator sits:person_SidMeier ;
-    schema:datePublished "1991" ;
-    schema:gameEdition "Civilization VII" ;
-    schema:genre "4X Turn-Based Strategy" ;
-    schema:publisher sits:org_FireaxisGames,
-        sits:org_KGames .
+sits:person_Belisarius dcterms:isReferencedBy sits:item_board_game,
+        sits:item_book_2 ;
+    sits:isMagisterMilitumOf sits:person_Justinian_I .
+
+sits:person_Theodora dcterms:isReferencedBy sits:item_board_game,
+        sits:item_book_2 ;
+    schema:spouse sits:person_Justinian_I .
+
+sits:place_Constantinople owl:sameAs wd:Q16869 .
+
+sits:item_board_game dcterms:contributor sits:person_HaraldLieske ;
+    dcterms:creator sits:person_AlessandroSaragosa,
+        sits:person_LeoColovini ;
+    sits:gameMechanics "Betting",
+        "Bluffing",
+        "Influence" ;
+    schema:datePublished "2006" ;
+    schema:hasPart "Box",
+        "Cards",
+        "Game board",
+        "Tokens" ;
+    schema:name "Justinian: Intrigue at the Emperor’s Court" ;
+    schema:numberOfPlayers "2–4 players" ;
+    schema:publisher sits:org_MayfairGames,
+        sits:org_PhalanxGames ;
+    schema:sameAs <https://boardgamegeek.com/boardgame/22938/justinian-intrigue-at-the-emperors-court> ;
+    schema:timeRequired "PT45M" .
+
+sits:item_book_2 a bf:Text ;
+    bf:identifiedBy "1256733539" ;
+    dcterms:creator <http://viaf.org/viaf/100179778> ;
+    dcterms:identifier "procopius0001proc" ;
+    dcterms:issued "1914" ;
+    dcterms:publisher "Cambridge : Harvard Univ. Press" ;
+    dcterms:source <https://archive.org/details/procopius0001proc/page/n5/mode/2up> ;
+    dcterms:subject <http://id.loc.gov/authorities/names/n79071858> ;
+    dcterms:title "History of the wars"@en ;
+    schema:about sits:person_Justinian_I .
 
