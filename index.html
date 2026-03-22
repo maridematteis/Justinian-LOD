@@ -489,16 +489,17 @@
         <h3>Theoretical Model</h3>
         
         <div class="idea-text">
-          <p>
-           The team built the theoretical model starting from the descriptions of individual items provided by the institutions.
-
-The model was developed and structured on the basis of triple statements in natural language, following the subject–predicate–object format. This approach makes it possible to highlight both the connection of the items to the project's theme – the cultural legacy of Emperor Justinian I – and the relationships among the different items. As stated in the section Metadata Analysis, not every institution provided a metadata standard that the team could use to describe each item, but even when this was possible, some connections – predicates – of some items have been altered for the sake of readability and controlled authority forms’ recognition.
-
-Additional information about the entities correlated to the items was also included to enrich the data and illustrate ulterior possible connections branching out among and from them. The team worked to make the network among information surrounding our project’s concept as interconnected and differentiated as possible, for this reason different colours and shapes have been used to categorise the kind of information described (whether an item, an entity or a literal).
-
-Furthermore, entities have been color coded and made in different shapes to indicate thier role.
-A legend which visually describes what has been just declared can be found within the map itself.
-          </p>
+          <div class="idea-text">
+            <p>
+              The <strong>Theoretical Model</strong> was developed by analysing the natural‑language descriptions of each cultural heritage item, as provided by the holding institutions. The goal was to capture the core knowledge about Justinian’s legacy in a structured yet human‑readable form. All statements were expressed as <strong>subject–predicate–object</strong> triples, following the pattern of <strong>Linked Open Data</strong>. This made it possible to explicitly show not only how each item relates to the central theme—the multifaceted heritage of Emperor Justinian I—but also the network of connections among the items themselves.
+            </p>
+            <p>
+              Because not every institution supplied metadata according to a formal standard, the team carefully aligned each predicate to the most appropriate vocabulary. Where necessary, predicates were adapted to maintain readability and to ensure consistency with authority files. <strong>Additional entities</strong>—such as historical figures (Theodora, Belisarius), places (Constantinople, Ravenna), and concepts (Corpus Iuris Civilis, Byzantine architecture)—were introduced to enrich the dataset and to reveal further links across the items.
+            </p>
+            <p>
+              In the visualisation, different <strong>colours and shapes</strong> serve to distinguish the types of information. Items are represented with distinct shapes, while entities are shown in <strong>sharp‑edged blue boxes</strong>. Entities that play a central role in the project—those that appear repeatedly across items and carry a high number of interconnections—are highlighted with <strong>round‑edged brown boxes</strong>. A legend below the diagram explains the visual encoding in detail.
+            </p>
+          </div>
           <div class="image-container text-center my-4">
             <div id="theoretical-model-container">
               <a href="assets\img\theoretical Msvg.svg" target="_blank">
@@ -519,22 +520,17 @@ A legend which visually describes what has been just declared can be found withi
           <div class="idea-text">
             <p>
               <div class="idea-text">
-                <p>
-                  The definition of our Conceptual Model began with the identification and formalization of the relationships between the metadata of our selected cultural heritage items and the core theme of Emperor Justinian’s cultural legacy. The objective was to elevate the entities, relationships, and concepts from our theoretical model to a formal and abstract level, assigning to each an appropriate class and property from existing vocabularies and ontologies.
-                </p>
-                <p>
-                  As a starting point, we created custom URIs (Uniform Resource Identifier) to uniquely identify the entities in our project, establishing our base URI: <code>https://github.com/Iustinianus-LOD/Justinian-LOD/</code>.
-                </p>
-                <p>
-                  To formally represent the subject–predicate–object relationships, we began with our project's items as the subjects. For each predicate, we sought the best way to express the relationship identified in the theoretical model by using the most suitable properties from existing ontologies. The object of the relationship was then modeled as a concrete entity.
-                </p>
-                <p>
-                  The choice of which specific vocabulary, schema, or ontology to use for a given class or property was made on a case‑by‑case basis, depending on the nature of the entity being described and the metadata standards that might be relevant. We relied on vocabularies pertinent to our domain and the entities we wanted to represent. Specifically, for our bibliographic resources (such as the manuscript we analyzed), we primarily used the BIBFRAME schema, which is the standard for describing bibliographic information. For the museum and artistic items, we relied on CIDOC‑CRM, while for people, places, and organizations we employed FOAF and Schema.org.
-                </p>
-                <p>
-                  This combination ensured excellent flexibility while maintaining semantic coherence across various data sources.
-                </p>
-              </div>
+                <div class="idea-text">
+                  <p>
+                    The <strong>Conceptual Model</strong> formalises the domain knowledge by defining the <strong>classes, properties, and relationships</strong> that structure the dataset. Starting from the theoretical model, each natural‑language triple was elevated to an abstract level and assigned a suitable class or property from established ontologies. A custom <strong>base URI</strong> was created to uniquely identify the resources of the project: <code>https://github.com/Iustinianus-LOD/Justinian-LOD/</code>.
+                  </p>
+                  <p>
+                    The selection of ontologies was driven by the nature of each item. For the <strong>Codex Florentinus</strong> and other bibliographic resources, the team adopted <strong>BIBFRAME</strong>, the standard for describing library materials. Museum objects—such as the <strong>Diptych Barberini</strong>, the <strong>San Vitale Mosaic</strong>, and the <strong>gold solidus</strong>—were modelled using <strong>CIDOC‑CRM</strong>, which offers the necessary granularity for cultural heritage artefacts. <strong>Schema.org</strong> and <strong>FOAF</strong> were employed for people, places, and organisations, ensuring interoperability with general‑purpose web applications. <strong>Nomisma.org</strong> ontologies provided the required specificity for the numismatic item.
+                  </p>
+                  <p>
+                    All classes and properties were selected on a case‑by‑case basis to guarantee semantic precision while preserving coherence across heterogeneous data sources. The resulting model thus reflects a careful balance between the richness of the original descriptions and the formal requirements of the <strong>Semantic Web</strong>.
+                  </p>
+                </div>
             </p>
           </div>
         <!-- CONCEPTUAL MODEL DIAGRAM -->
