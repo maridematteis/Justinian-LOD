@@ -577,51 +577,90 @@
             <div class="idea-text">
                 <h4>CSV Files in Formal Language</h4>
                 <p>
-                  RUMANA'S PART
-                </p>
-            </div>
+                  <p>
+                    From these natural language CSV files, another set of CSV files is created using formal language. These files will be found under the folder <strong> “csv_files/Formal_language”</strong> within the project’s repository. The files will have the same structure as the natural language files, following the subject-predicate-object form, so that every statement could be traced back to its equivalent form in natural language and mapped into a semantic triple.
+                  </p>
+      <p>
+        The formalization process consisted of two parallel operations:
+      </p>
+      <ul>
+        <li>
+          For the <strong>predicates</strong>, every relationship identified in the natural language 
+          description was associated with a property from a predefined ontology or vocabulary. 
+          <strong>Dublin Core (dcterms)</strong> was used for generic descriptive metadata such as 
+          title, date, language, and source. <strong>BIBFRAME</strong> was used for bibliographic 
+          resources, <strong>CIDOC-CRM</strong> for cultural heritage objects and events, 
+          <strong>Schema.org</strong> for media items and generic descriptions, and the 
+          <strong>Nomisma Ontology (nmo)</strong> for the coin.
+        </li>
+        <li>
+          For the <strong>objects</strong>, every value was associated with a URI from an 
+          authority-controlled resource rather than being represented as a plain string. 
+          <strong>VIAF</strong> was used for people and authors, <strong>Wikidata</strong> for 
+          historical concepts and entities, <strong>GeoNames</strong> for geographical locations, 
+          and <strong>Getty AAT</strong> for object types and materials.
+        </li>
+      </ul>
+      <p>
+        Entities that are central to the project but not held by any particular institution — such as 
+        Justinian I, Theodora, Belisarius, the Byzantine Empire, and the Corpus Iuris Civilis — were 
+        assigned custom URIs under the project's base namespace (<code>sits:</code>).
+      </p>
+      <p>
+        Two additional CSV files were also created to describe relationships between entities that are 
+        not items themselves but are relevant to the dataset. These include relationships between 
+        historical figures and the items in which they appear, descriptions of the museums that hold 
+        the items, and the relationship between the Byzantine Empire and its capital Constantinople. 
+        <strong>owl:sameAs</strong> statements were also added to align the project's custom URIs 
+        with their equivalent Wikidata entries, ensuring interoperability with the broader 
+        Linked Open Data ecosystem.
+      </p>
+    </div>
 
-            <div class="idea-text">
-                <h4>Python Script for Transformation</h4>
-                <p>
-                    The production of the <strong>RDF dataset</strong> of all the items was done automatically through
-                    <strong>Python</strong> with the usage of libraries like rdflib, csv and
-                    DictReader.
-                </p>
+    <div class="idea-text">
+      <h4>Python Script for Transformation</h4>
+      <p>
+        The RDF dataset is produced programmatically by a Python script using the
+        <strong>rdflib</strong>, <strong>csv</strong> and <strong>glob</strong> libraries. The script
+        initializes an RDF graph, declares namespace prefixes, and processes every CSV file found in
+        the <strong>csv_files/Formal_language</strong> folder. Files are parsed with <strong>csv.DictReader</strong>,
+        which reads the header row automatically and yields subject–predicate–object rows.
+      </p>
 
-                <p>
-                    What the script does specifically is:
-                </p>
+      <p>
+        For each row the script expands CURIEs to full URIs using the prefix map, accepts full
+        <code>http</code>/<code>https</code> URIs directly, and normalizes casing when needed. Objects
+        are handled according to their content:
+      </p>
 
-                <ul>
-                    <li>
-                        First of all, it initialises a graph which will contain all the statement triples of the items
-                        and the ‘additional’, and defines a dictionary of prefixes and their connected namespaces’ URIs;
-                    </li>
-                    <li>
-                        It then accesses the CSV ‘formal_language’ folder and takes all files of extension ‘.csv’,
-                        reads them through the function DictReader and then iterates through each of them and appends them to a list;
-                    </li>
-                    <li>
-                        Since we set up the structure of our CSV files with a header <strong>‘Subject,Predicate,Object’</strong>,
-                        the information are processed as rows and for each column analysed accordingly:
-                        the subjects and predicates are firstly split in prefixes and their names and full URIs are created for each of them;
-                        the objects instead are categorised whether or not they have a ‘:’ inside them or not.
-                        If there is, a full URI is created; if not, a parsing depending on the kind of object
-                        (plain text, integers or date years)
-                        creates a Literal of the according data type;
-                    </li>
-                    <li>
-                        The information are then added as triples in the graph initialised at the beginning
-                        and the script produces an output file of the triples (<strong>‘full_dataset.ttl’</strong>)
-                        serialised through <strong>Turtle format</strong> – that we chose for human-readability purposes.
-                    </li>
-                </ul>
+      <ul>
+        <li>Values wrapped in angle brackets (<code>&lt;&gt;</code>) are treated as URI references.</li>
+        <li>CURIEs are expanded using the prefix map.</li>
+        <li>Language-tagged values (e.g. <code>@en</code>, <code>@la</code>) become language-tagged literals.</li>
+        <li>Four-digit values within the historical year range are mapped to <code>xsd:gYear</code>.</li>
+        <li>Other numeric values are mapped to <code>xsd:integer</code>.</li>
+        <li>Remaining values are stored as plain string literals.</li>
+      </ul>
 
-                <div class="embed-container">
-                    <iframe frameborder="0" scrolling="yes" allow="clipboard-write" src=""></iframe>
-                </div>
-            </div>
+      <p>
+        If a subject or predicate cannot be resolved to a known CURIE or URI, the row is skipped and
+        reported on the console to make source correction easy. After processing all files the graph is
+        serialized to Turtle as <strong>full_dataset.ttl</strong>, chosen for its readability and broad
+        tooling support.
+      </p>
+
+      <p>What the script does specifically:</p>
+      <ul>
+        <li>Initialises a graph and binds namespace prefixes.</li>
+        <li>Reads all <code>.csv</code> files in <code>csv_files/Formal_language</code> using <code>DictReader</code>.</li>
+        <li>Expands subjects/predicates from CURIEs or accepts full URIs; parses objects into URIs or typed literals.</li>
+        <li>Adds triples to the graph and writes the resulting Turtle file (<code>full_dataset.ttl</code>).</li>
+      </ul>
+
+      <div class="embed-container">
+        <iframe frameborder="0" scrolling="yes" allow="clipboard-write" src=""></iframe>
+      </div>
+    </div>
 
             <div class="idea-text">
                 <h4>RDF Dataset</h4>
@@ -1631,14 +1670,39 @@
                     <div class="idea-text">
                         <h4>XML/TEI to RDF</h4>
 
-                        <div class="idea-text">
-                            <p>
-                              RUMANA'S PART
-                            </p>
-                        </div>
+                        <p>
+                          In order to extend the Linked Open Data model of the project to include the encoded textual
+                          source, a Python script was developed to convert the XML/TEI document of the Procopius
+                          encoding into an RDF dataset.
+                        </p>
+
+                        <p>
+                          The conversion process was designed to leverage the structured metadata already encoded in
+                          the TEI document. Entities recorded in the <code>&lt;teiHeader&gt;</code> — such as
+                          historical figures listed in the <code>&lt;listPerson&gt;</code> element and geographical
+                          locations in the <code>&lt;listPlace&gt;</code> element — were extracted and assigned URIs
+                          under the project's base namespace. Where the TEI encoding already contained references to
+                          external authority resources such as <strong>Wikidata</strong> or <strong>VIAF</strong>,
+                          these were reused directly as <strong>owl:sameAs</strong> statements in the resulting RDF
+                          dataset, ensuring alignment with the broader Linked Open Data ecosystem.
+                        </p>
+
+                        <p>
+                          Descriptive properties were represented using the same ontologies employed throughout the
+                          project: <strong>dcterms</strong> for bibliographic metadata and <strong>foaf</strong> for
+                          describing individuals. The resulting graph was then serialized in
+                          <strong>Turtle (.ttl)</strong> format, producing an RDF file that complements the main
+                          dataset and can be queried and browsed alongside it. Validation was performed using the
+                          <strong>W3C RDF Validator</strong> to confirm the syntactic correctness of the file
+                          before publication.
+                        </p>
 
                         <div class="idea-text">
-                            <p><strong><a href="">Click here to see XML/TEI to RDF transformation!</a></strong></p>
+                          <p>
+                            <strong>
+                              <a href="">Click here to see the XML/TEI to RDF transformation!</a>
+                            </strong>
+                          </p>
                         </div>
                     </div>
 
