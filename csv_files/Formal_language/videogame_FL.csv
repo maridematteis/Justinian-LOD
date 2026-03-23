@@ -6,7 +6,7 @@ sits:item_video_game,schema:datePublished,"""1991"""
 sits:item_video_game,schema:creator,sits:person_SidMeier
 sits:item_video_game,schema:publisher,sits:org_FireaxisGames
 sits:item_video_game,schema:publisher,sits:org_KGames
-sits:item_video_game,schema:gameEdition,Civilization VII
+sits:item_video_game,schema:gameEdition,Civilization VI
 sits:item_video_game,sits:definingFeature,"Progression through Ages (Antiquity, Exploration, Modern)"
 sits:item_video_game,sits:victoryCondition,Economic
 sits:item_video_game,sits:featuresLeader,sits:person_Justinian_I

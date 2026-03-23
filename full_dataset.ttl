@@ -12,8 +12,6 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wd: <https://www.wikidata.org/wiki/> .
 
-sits:concept_GreekUncial a bf:Script .
-
 sits:institution_BritishMuseum a schema:Museum ;
     owl:sameAs wd:Q6273 .
 
@@ -31,7 +29,7 @@ sits:item_book_1 a bf:Text ;
     dcterms:spatial <https://www.geonames.org/745044> ;
     dcterms:subject <http://id.loc.gov/authorities/subjects/sh85115573> ;
     dcterms:title "Codex Florentinus"@la ;
-    bibo:annotates "Greek uncial script" .
+    bibo:annotates sits:concept_GreekUncial .
 
 sits:item_coin nmo:dateEnd "-1" ;
     nmo:dateStart "-6" ;
@@ -112,6 +110,8 @@ sits:place_ByzantineEmpire owl:sameAs wd:Q7075 ;
 
 sits:collection_CorpusIurisCivilis dcterms:creator sits:person_Justinian_I ;
     skos:altLabel "Codex Pisanus" .
+
+sits:concept_GreekUncial a bf:Script .
 
 sits:item_music dcterms:language "el",
         "la" ;
